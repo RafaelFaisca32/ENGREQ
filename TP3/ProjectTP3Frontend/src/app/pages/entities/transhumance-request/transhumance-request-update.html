@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pedido de transumância</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button [disabled]="!isReadyToSave" (click)="save()" color="primary">
+        <span *ngIf="platform.is('ios')">{{'DONE_BUTTON' | translate}}</span>
+        <ion-icon name="checkmark" *ngIf="!platform.is('ios')"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form *ngIf="form" name="form" [formGroup]="form" (ngSubmit)="save()">
+    <ion-list>
+      <!-- <ion-item [hidden]="!form.id">
+        <ion-label>ID</ion-label>
+        <ion-input type="hidden" id="id" formControlName="id" readonly></ion-input>
+      </ion-item> -->
+      <ion-item>
+        <ion-label>Apiário origem</ion-label>
+        <ion-select id="field_apiary" formControlName="apiaryId" [compareWith]="compareApiary" (ionChange)="onApiaryChange($event)" required>
+          <ion-select-option [value]="null"></ion-select-option>
+          <ion-select-option [value]="apiaryOption.id" *ngFor="let apiaryOption of apiaries; trackBy: trackApiaryById"
+            >{{apiaryOption.id}}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+      <ion-item *ngIf="form.get('apiaryId').value">
+        <ion-label >Colmeias</ion-label>
+        <ng-container *ngIf="hives && hives.length > 0; else noHivesMessage">
+          <ion-select id="field_hive" multiple="true" formControlName="hives" [compareWith]="compareHive" required>
+            <ion-select-option [value]="hiveOption" *ngFor="let hiveOption of hives; trackBy: trackHiveById">
+              {{hiveOption.id}}
+            </ion-select-option>
+          </ion-select>
+        </ng-container>
+        <ng-template #noHivesMessage>
+          <ion-text color="danger">Este apiário ainda não tem colmeias.</ion-text>
+        </ng-template>
+      </ion-item>
+      <ion-item>
+        <ion-label>Apiário destino</ion-label>
+        <ion-select id="field_destinationApiary" formControlName="destinationApiaryId" [compareWith]="compareApiary">
+          <ion-select-option [value]="null"></ion-select-option>
+          <ion-select-option [value]="apiaryOption.id" *ngFor="let apiaryOption of apiaries; trackBy: trackApiaryById">
+            {{apiaryOption.id}}
+          </ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>

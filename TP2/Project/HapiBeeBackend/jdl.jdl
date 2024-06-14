@@ -1,0 +1,200 @@
+entity Apiary {
+    name String unique required
+    state ApiaryState required
+    coordX String required
+    coordY String required
+    coordZ String required
+    number Integer required
+    intensive Boolean required
+    transhumance Boolean required
+}
+
+entity ApiaryZone {
+	name String required
+	controlledZone Boolean required
+    state ApiaryZoneState required
+}
+
+entity Beekeeper {
+	beekeeperCompleteName String
+	beekeeperNumber Integer
+    entityZoneResidence Integer
+    nif Integer
+    address String
+    postalCode String
+    phoneNumber Integer
+    faxNumber Integer
+    state BeekeeperState required
+}
+
+entity Hive {
+    code String unique required
+}
+
+entity Frame {
+	code String unique
+}
+
+entity Inspection {
+    date LocalDate required
+    note String
+    type InspectionType
+    state InspectionState required
+}
+
+entity Disease {
+    name String
+    description String
+}
+
+entity Unfolding {
+    observations String
+    date ZonedDateTime required
+    state UnfoldingState required
+}
+
+entity Crest {
+    waxWeight Float required
+    timeWastedCentrifuge Float required
+    initialDateDecantation ZonedDateTime required
+    finalDateDecantation ZonedDateTime
+    producedHoneyQuantity Float
+    state CrestState required
+}
+
+entity TranshumanceRequest {
+    requestDate ZonedDateTime required
+    state TranshumanceRequestState required
+}
+
+entity AnnualInventoryDeclaration {
+	total Integer required
+    beekeeperFaxNumber Integer required
+	beekeeperCompleteName String required
+	beekeeperNif Integer required
+    date LocalDate required
+    beekeeperAddress String required
+    beekeeperPostalCode String required
+    beekeeperPhoneNumber Integer required
+    beekeeperEntityZoneResidence String required
+    beekeeperNumber Integer required
+    annualInventoryDeclarationState AnnualInventoryDeclarationState
+	revisionDate LocalDate
+    revisionLocation String
+    revisorSignature String
+    revisorName String
+}
+
+entity ApiaryInformation {
+	zoneNumber Integer required
+	zoneName String required
+    numberHives Integer required
+    intensive Boolean required
+    transhumance Boolean required
+    coordX String required
+    coordY String required
+    coordZ String required
+    numberFrames Integer required
+}
+
+enum AnnualInventoryDeclarationState {
+	APPROVED, DECLINED, PENDING, ANNULLED
+}
+
+enum CrestState {
+    DECANTATION, FINALIZED, ANNULLED
+}
+
+enum ApiaryState {
+    NOT_APPROVED, APPROVED, PENDING, ANNULLED
+}
+
+enum ApiaryZoneState {
+    REGISTERED, ANNULLED
+}
+
+enum BeekeeperState {
+    REGISTERED, ANNULLED
+}
+
+enum InspectionState {
+    REGISTERED, ANNULLED
+}
+
+enum UnfoldingState {
+    REGISTERED, ANNULLED
+}
+
+enum InspectionType {
+    EXTERNAL, INTERNAL
+}
+
+enum TranshumanceRequestState {
+    NOT_APPROVED, APPROVED, PENDING, ANNULLED
+}
+relationship ManyToOne {
+    Crest to Hive
+}
+relationship ManyToOne {
+    Unfolding to Hive
+}
+relationship OneToOne {
+    Unfolding{createdHive} to Hive
+}
+relationship ManyToOne {
+    Hive to Apiary
+}
+relationship ManyToOne {
+    TranshumanceRequest to User
+}
+relationship ManyToOne {
+    TranshumanceRequest to Apiary
+}
+relationship ManyToMany {
+    TranshumanceRequest to Hive
+}
+relationship ManyToOne {
+    Inspection to Hive
+}
+relationship ManyToMany {
+    Inspection to Disease
+}
+relationship OneToMany {
+    AnnualInventoryDeclaration to ApiaryInformation
+}
+relationship OneToOne {
+	Beekeeper to User
+}
+relationship ManyToOne {
+	Apiary to Beekeeper
+}
+relationship ManyToMany {
+    Hive to Frame
+}
+relationship ManyToMany {
+    Crest to Frame
+}
+relationship ManyToMany {
+    Unfolding{removedFramesOldHive} to Frame{unfoldingRemovedFramesOldHive}
+}
+relationship ManyToMany {
+    Unfolding{insertedFramesOldHive} to Frame{unfoldingInsertedFramesOldHive}
+}
+relationship ManyToMany {
+    Unfolding{insertedFramesNewHive} to Frame{unfoldingInsertedFramesNewHive}
+}
+relationship ManyToOne {
+    Apiary to ApiaryZone
+}
+
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+paginate all with pagination
+filter all
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

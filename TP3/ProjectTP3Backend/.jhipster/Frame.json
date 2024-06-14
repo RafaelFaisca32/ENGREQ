@@ -1,0 +1,57 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195841",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "frame",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Frame",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "frame",
+      "ownerSide": false,
+      "relationshipName": "hive",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "crest",
+      "otherEntityRelationshipName": "frame",
+      "ownerSide": false,
+      "relationshipName": "crest",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "unfolding",
+      "otherEntityRelationshipName": "removedFramesOldHive",
+      "ownerSide": false,
+      "relationshipName": "unfoldingRemovedFramesOldHive",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "unfolding",
+      "otherEntityRelationshipName": "insertedFramesOldHive",
+      "ownerSide": false,
+      "relationshipName": "unfoldingInsertedFramesOldHive",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "unfolding",
+      "otherEntityRelationshipName": "insertedFramesNewHive",
+      "ownerSide": false,
+      "relationshipName": "unfoldingInsertedFramesNewHive",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

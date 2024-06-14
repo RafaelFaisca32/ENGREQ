@@ -1,0 +1,24 @@
+@startuml UseCaseDiagram
+
+left to right direction
+
+:DGAV Technicians: as dt
+
+(Registar intervenções/inspeções) as uc1
+(Visualizar os comunicados por parte dos Apicultores) as uc2
+(Visualizar Informação do Apiário) as uc3
+(Visualizar calendário de intervenções/inspeções) as uc4
+(Receção de notificação quando intervenção/inspeções de aproxima) as uc5
+(Registar relatório da inspeção) as uc6
+(Registar multas) as uc7
+
+dt --> uc1
+dt --> uc2
+dt --> uc3
+dt --> uc4
+dt --> uc5
+dt --> uc6
+dt --> uc7
+
+
+@enduml

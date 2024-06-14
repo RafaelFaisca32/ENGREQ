@@ -1,0 +1,82 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195837",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "apiary",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "required"]
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "ApiaryState",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "NOT_APPROVED,APPROVED,PENDING,ANNULLED"
+    },
+    {
+      "fieldName": "coordX",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "coordY",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "coordZ",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "number",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "intensive",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "transhumance",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Apiary",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "beekeeper",
+      "otherEntityRelationshipName": "apiary",
+      "relationshipName": "beekeeper",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "apiaryZone",
+      "otherEntityRelationshipName": "apiary",
+      "relationshipName": "apiaryZone",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "apiary",
+      "relationshipName": "hive",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "transhumanceRequest",
+      "otherEntityRelationshipName": "apiary",
+      "relationshipName": "transhumanceRequest",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

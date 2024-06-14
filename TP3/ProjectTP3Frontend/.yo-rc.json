@@ -1,0 +1,26 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "baseName": "HapiBeeIonic",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-ionic",
+        "version": "8.1.0"
+      }
+    ],
+    "enableTranslation": false,
+    "jhipsterVersion": "7.9.3",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-ionic",
+        "version": "8.1.0"
+      }
+    ],
+    "prettierDefaultIndent": 2,
+    "projectName": "Hapi Bee BackendIonic"
+  },
+  "generator-jhipster-ionic": {
+    "appDir": "../ProjectTP3Backend",
+    "ionicDir": null
+  }
+}

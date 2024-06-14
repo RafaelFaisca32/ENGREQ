@@ -1,0 +1,25 @@
+@startuml UseCaseDiagram
+
+left to right direction
+
+:Certification Companies: as cc
+
+(Marcação de sessões [marcar/adiar/eliminar]) as uc1
+(Registo de Inspeções [resultados]) as uc2
+(Criação do Relatório da sessão) as uc3
+(Registo de Certificações) as uc4
+(Revalidação de Certificações) as uc5
+(Visualização do Histórico dos tratamentos realizados) as uc6
+(Visualização dos requisitos das certificações) as uc7
+(Registo de dificuldades que enfrentam) as uc8
+
+cc --> uc1
+cc --> uc2
+cc --> uc3
+cc --> uc4
+cc --> uc5
+cc --> uc6
+cc --> uc7
+cc --> uc8
+
+@enduml

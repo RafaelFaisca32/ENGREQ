@@ -1,0 +1,112 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Annual Inventory Declaration</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="fixed">ID</ion-label>
+      <div item-content>
+        <span id="id-content">{{annualInventoryDeclaration.id}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Total</ion-label>
+      <div item-content>
+        <span id="total-content">{{annualInventoryDeclaration.total}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Fax Number</ion-label>
+      <div item-content>
+        <span id="beekeeperFaxNumber-content">{{annualInventoryDeclaration.beekeeperFaxNumber}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Complete Name</ion-label>
+      <div item-content>
+        <span id="beekeeperCompleteName-content">{{annualInventoryDeclaration.beekeeperCompleteName}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Nif</ion-label>
+      <div item-content>
+        <span id="beekeeperNif-content">{{annualInventoryDeclaration.beekeeperNif}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Date</ion-label>
+      <div item-content>
+        <span id="date-content">{{annualInventoryDeclaration.date | date:'mediumDate'}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Address</ion-label>
+      <div item-content>
+        <span id="beekeeperAddress-content">{{annualInventoryDeclaration.beekeeperAddress}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Postal Code</ion-label>
+      <div item-content>
+        <span id="beekeeperPostalCode-content">{{annualInventoryDeclaration.beekeeperPostalCode}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Phone Number</ion-label>
+      <div item-content>
+        <span id="beekeeperPhoneNumber-content">{{annualInventoryDeclaration.beekeeperPhoneNumber}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Entity Zone Residence</ion-label>
+      <div item-content>
+        <span id="beekeeperEntityZoneResidence-content">{{annualInventoryDeclaration.beekeeperEntityZoneResidence}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Beekeeper Number</ion-label>
+      <div item-content>
+        <span id="beekeeperNumber-content">{{annualInventoryDeclaration.beekeeperNumber}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Annual Inventory Declaration State</ion-label>
+      <div item-content>
+        <span id="annualInventoryDeclarationState-content">{{annualInventoryDeclaration.annualInventoryDeclarationState}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Revision Date</ion-label>
+      <div item-content>
+        <span id="revisionDate-content">{{annualInventoryDeclaration.revisionDate | date:'mediumDate'}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Revision Location</ion-label>
+      <div item-content>
+        <span id="revisionLocation-content">{{annualInventoryDeclaration.revisionLocation}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Revisor Signature</ion-label>
+      <div item-content>
+        <span id="revisorSignature-content">{{annualInventoryDeclaration.revisorSignature}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Revisor Name</ion-label>
+      <div item-content>
+        <span id="revisorName-content">{{annualInventoryDeclaration.revisorName}}</span>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="open(annualInventoryDeclaration)">{{ 'EDIT_BUTTON' | translate }}</ion-button>
+  <ion-button expand="block" color="danger" (click)="deleteModal(annualInventoryDeclaration)">{{ 'DELETE_BUTTON' | translate }}</ion-button>
+</ion-content>

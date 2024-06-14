@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="377px" preserveAspectRatio="none" style="width:469px;height:377px;background:#FFFFFF;" version="1.1" viewBox="0 0 469 377" width="469px" zoomAndPan="magnify"><defs/><g><!--MD5=[bc4811cbb395b4c1161aa32bd9de67c0]
+entity bm--><g id="elem_bm"><ellipse cx="70.5" cy="134.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M70.5,142.5 L70.5,169.5 M57.5,150.5 L83.5,150.5 M70.5,169.5 L57.5,184.5 M70.5,169.5 L83.5,184.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="6" y="200.5332">Beekeeper Manager</text></g><g id="elem_uc1"><ellipse cx="328.7688" cy="22.1538" fill="#F1F1F1" rx="68.7688" ry="16.1538" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="283.7688" y="26.6704">Criar Tarefas</text></g><g id="elem_uc2"><ellipse cx="329.2427" cy="90.1485" fill="#F1F1F1" rx="73.7427" ry="17.1485" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="277.2427" y="94.6651">Atribuir Tarefas</text></g><g id="elem_uc3"><ellipse cx="328.7928" cy="164.8586" fill="#F1F1F1" rx="102.2928" ry="22.8586" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="245.7928" y="168.5871">Visualizar todas as tarefas</text></g><g id="elem_uc4"><ellipse cx="329.1118" cy="252.2224" fill="#F1F1F1" rx="134.1118" ry="29.2224" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="235" x="211.6118" y="255.9509">Registar Apicultores e os seus dados</text></g><g id="elem_uc5"><ellipse cx="329.205" cy="343.941" fill="#F1F1F1" rx="125.205" ry="27.441" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="221.205" y="347.6695">Registar Apiários e os seus dados</text></g><!--MD5=[92e8b82f7ba7beaea014e44e15730368]
+link bm to uc1--><g id="link_bm_uc1"><path d="M105.98,125.83 C128.97,102.03 161.1,72.88 195,55 C216.32,43.75 241.61,36.24 264.37,31.26 " fill="none" id="bm-to-uc1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="269.49,30.18,259.8602,28.1142,264.5966,31.2072,261.5037,35.9436,269.49,30.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c2ac496351573d92662861c83ffdfb5a]
+link bm to uc2--><g id="link_bm_uc2"><path d="M135.01,142.97 C154.2,136.57 175.38,129.76 195,124 C220.19,116.61 248.33,109.28 272.22,103.33 " fill="none" id="bm-to-uc2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="277.25,102.09,267.5486,100.3923,272.3993,103.3027,269.4889,108.1534,277.25,102.09" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cea4345e2681714bff8fc010af172eed]
+link bm to uc3--><g id="link_bm_uc3"><path d="M135.23,165 C161.18,165 191.89,165 221.09,165 " fill="none" id="bm-to-uc3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="226.14,165,217.14,161,221.14,165,217.14,169,226.14,165" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[aef53c9caf8b3379744afe71df7ad652]
+link bm to uc4--><g id="link_bm_uc4"><path d="M135.23,186.62 C170.31,198.51 214.08,213.36 251.05,225.9 " fill="none" id="bm-to-uc4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="255.99,227.58,248.7588,220.8934,251.2567,225.969,246.1811,228.4668,255.99,227.58" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[74ce7a5f663041a49b54cf6765b63cd3]
+link bm to uc5--><g id="link_bm_uc5"><path d="M99.43,204.26 C122.19,233.69 156.73,273.05 195,298 C209.38,307.37 225.87,315.06 242.25,321.29 " fill="none" id="bm-to-uc5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="247.32,323.18,240.2722,316.3004,242.6319,321.4416,237.4908,323.8013,247.32,323.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1aa18fc35cc349b69b24e7e77524371f]
+@startuml UseCaseDiagram
+
+left to right direction
+
+:Beekeeper Manager: as bm
+
+(Criar Tarefas) as uc1
+(Atribuir Tarefas) as uc2
+(Visualizar todas as tarefas) as uc3
+(Registar Apicultores e os seus dados) as uc4
+(Registar Apiários e os seus dados) as uc5
+
+bm - -> uc1
+bm - -> uc2
+bm - -> uc3
+bm - -> uc4
+bm - -> uc5
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

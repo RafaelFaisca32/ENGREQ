@@ -1,0 +1,74 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195839",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "beekeeper",
+  "fields": [
+    {
+      "fieldName": "beekeeperCompleteName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "beekeeperNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "entityZoneResidence",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nif",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "faxNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "BeekeeperState",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "REGISTERED,ANNULLED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Beekeeper",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "beekeeper",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "transhumanceRequest",
+      "otherEntityRelationshipName": "beekeeper",
+      "relationshipName": "transhumanceRequest",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "apiary",
+      "otherEntityRelationshipName": "beekeeper",
+      "relationshipName": "apiary",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

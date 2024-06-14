@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20231208211616",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "unfolding",
+  "fields": [
+    {
+      "fieldName": "observations",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Unfolding",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "unfolding",
+      "relationshipName": "hive",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

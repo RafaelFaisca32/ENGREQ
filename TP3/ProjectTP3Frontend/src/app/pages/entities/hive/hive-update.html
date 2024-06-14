@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Criar/Atualizar colmeia</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button id="present-alert" [disabled]="!isReadyToSave" (click)="presentAlert()" color="primary">
+        <span *ngIf="platform.is('ios')">{{'DONE_BUTTON' | translate}}</span>
+        <ion-icon name="checkmark" *ngIf="!platform.is('ios')"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form *ngIf="form" name="form" [formGroup]="form" (ngSubmit)="save()">
+    <ion-list>
+      <ion-item [hidden]="!form.id">
+        <ion-label>ID</ion-label>
+        <ion-input type="hidden" id="id" formControlName="id" readonly></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Código</ion-label>
+        <ion-input type="text" name="code" formControlName="code"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Quadros</ion-label>
+        <ion-select id="field_frame" multiple="true" formControlName="frames" [compareWith]="compareFrame">
+          <ion-select-option [value]="null"></ion-select-option>
+          <ion-select-option [value]="frameOption"
+            *ngFor="let frameOption of frames; trackBy: trackFrameById">{{frameOption.id}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>

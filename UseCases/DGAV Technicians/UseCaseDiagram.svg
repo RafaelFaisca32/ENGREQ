@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="655px" preserveAspectRatio="none" style="width:644px;height:655px;background:#FFFFFF;" version="1.1" viewBox="0 0 644 655" width="644px" zoomAndPan="magnify"><defs/><g><!--MD5=[3f813737a27eb5cca819d156ac1ac98b]
+entity dt--><g id="elem_dt"><ellipse cx="65.5" cy="298" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M65.5,306 L65.5,333 M52.5,314 L78.5,314 M65.5,333 L52.5,348 M65.5,333 L78.5,348 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="6" y="364.0332">DGAV Technicians</text></g><g id="elem_uc1"><ellipse cx="412.0545" cy="32.5109" fill="#F1F1F1" rx="120.5545" ry="26.5109" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="309.0545" y="36.2394">Registar intervenções/inspeções</text></g><g id="elem_uc2"><ellipse cx="412.0918" cy="132.7184" fill="#F1F1F1" rx="179.0918" ry="38.2184" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="329" x="247.5918" y="136.4469">Visualizar os comunicados por parte dos Apicultores</text></g><g id="elem_uc3"><ellipse cx="412.2025" cy="231.6405" fill="#F1F1F1" rx="118.7025" ry="26.1405" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="311.2025" y="235.369">Visualizar Informação do Apiário</text></g><g id="elem_uc4"><ellipse cx="412.0369" cy="328.7074" fill="#F1F1F1" rx="166.5369" ry="35.7074" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="303" x="260.5369" y="332.4359">Visualizar calendário de intervenções/inspeções</text></g><g id="elem_uc5"><ellipse cx="411.8712" cy="447.2742" fill="#F1F1F1" rx="226.8712" ry="47.7742" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="427" x="198.3712" y="451.0028">Receção de notificação quando intervenção/inspeções de aproxima</text></g><g id="elem_uc6"><ellipse cx="412.1774" cy="555.5355" fill="#F1F1F1" rx="113.1774" ry="25.0355" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="317.1774" y="559.264">Registar relatório da inspeção</text></g><g id="elem_uc7"><ellipse cx="412.2427" cy="632.6485" fill="#F1F1F1" rx="73.7427" ry="17.1485" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="360.2427" y="637.1651">Registar multas</text></g><!--MD5=[84dfa7fcead701aa1285dea7ee896f94]
+link dt to uc1--><g id="link_dt_uc1"><path d="M73.48,289.2 C85.65,232.84 116.35,129.98 185,76.5 C213.85,54.02 250.95,41.99 286.72,35.81 " fill="none" id="dt-to-uc1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="291.98,34.94,282.4495,32.4561,287.0465,35.7527,283.7499,40.3497,291.98,34.94" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2bc8ba2f2111aa32a36c0bf96309845a]
+link dt to uc2--><g id="link_dt_uc2"><path d="M89.45,289.32 C110.34,257.14 144.11,212.87 185,187.5 C207.45,173.57 233.19,163.17 259.06,155.4 " fill="none" id="dt-to-uc2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="263.9,153.98,254.14,152.66,259.1,155.38,256.38,160.34,263.9,153.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b301da1eab8e80aac7ba55cbf1af6bb0]
+link dt to uc3--><g id="link_dt_uc3"><path d="M125.14,299.09 C143.91,290.55 165.02,281.82 185,275.5 C224.21,263.09 268.4,253.55 307.24,246.58 " fill="none" id="dt-to-uc3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="312.44,245.65,302.8732,243.3098,307.5193,246.5369,304.2922,251.1829,312.44,245.65" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6e63ef73aaa62dfaee24a7a19a958a63]
+link dt to uc4--><g id="link_dt_uc4"><path d="M125.33,328.5 C157.37,328.5 198.83,328.5 240.19,328.5 " fill="none" id="dt-to-uc4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="245.23,328.5,236.23,324.5,240.23,328.5,236.23,332.5,245.23,328.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[754e94211c4655afe254f54a8548173c]
+link dt to uc5--><g id="link_dt_uc5"><path d="M125.22,356.66 C144.08,365.2 165.22,374.23 185,381.5 C210.82,390.99 238.69,400.06 265.74,408.26 " fill="none" id="dt-to-uc5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="270.78,409.79,263.3177,403.3623,265.9928,408.3467,261.0085,411.0218,270.78,409.79" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[06cc65682155653deff9b5f010465dcc]
+link dt to uc6--><g id="link_dt_uc6"><path d="M80.75,367.66 C98.41,410.34 132.71,477.23 185,512.5 C217.09,534.14 257.26,545.56 294.81,551.39 " fill="none" id="dt-to-uc6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="299.85,552.14,291.5444,546.8468,294.9055,551.3969,290.3555,554.758,299.85,552.14" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f8627c65ce521194cac3c42375d65018]
+link dt to uc7--><g id="link_dt_uc7"><path d="M71.84,367.77 C82.2,427.61 110.92,540.63 185,597.5 C228.07,630.57 289.63,638.29 337.62,638.31 " fill="none" id="dt-to-uc7" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="342.81,638.29,333.7873,634.3415,337.8101,638.3186,333.833,642.3414,342.81,638.29" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[32019b584146a20c1ebe7bd401d6d138]
+@startuml UseCaseDiagram
+
+left to right direction
+
+:DGAV Technicians: as dt
+
+(Registar intervenções/inspeções) as uc1
+(Visualizar os comunicados por parte dos Apicultores) as uc2
+(Visualizar Informação do Apiário) as uc3
+(Visualizar calendário de intervenções/inspeções) as uc4
+(Receção de notificação quando intervenção/inspeções de aproxima) as uc5
+(Registar relatório da inspeção) as uc6
+(Registar multas) as uc7
+
+dt - -> uc1
+dt - -> uc2
+dt - -> uc3
+dt - -> uc4
+dt - -> uc5
+dt - -> uc6
+dt - -> uc7
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

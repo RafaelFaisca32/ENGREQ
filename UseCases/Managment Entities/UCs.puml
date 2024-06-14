@@ -1,0 +1,32 @@
+@startuml UseCaseDiagram
+
+left to right direction
+
+:Management Entities: as me
+
+(Visualizar Informação do Apiário) as uc1
+(Registar/ver zonas) as uc2
+(Emitir alertas sobre eventos ou recomendações\n que podem afetar as zonas\n [alertas mau tempo, recomendações, produtos sugeridos]) as uc3
+(Manutenção das Declarações de pedidos de entrada\n ou saída de zonas [aprovar/rejeitar]) as uc4
+(Visualização do Documento Anual de Existências) as uc5
+(Visualização de registos de doenças por parte dos técnicos de DGAV) as uc6
+(Marcação de Intervenções) as uc7
+(Registo das Intervenções) as uc8
+(Pedido de Declaração Anual de Existências antecipado\n [influencia na emissão da declaração por parte do sistema]) as uc9
+(Visualizar um ponto de situação [Dashboard de entrada]) as uc10
+(Visualizar informação das zonas [temperatura, velocidade dos ventos, entre outros]) as uc11
+
+me --> uc1
+me --> uc2
+me --> uc3
+me --> uc4
+me --> uc5
+me --> uc6
+me --> uc7
+me --> uc8
+me --> uc9
+me --> uc10
+me --> uc11
+
+
+@enduml

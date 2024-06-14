@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Inspection.
+    -->
+    <changeSet id="20231208211614-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="hive_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__hive_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hive"/>
+
+        <addForeignKeyConstraint baseColumnNames="inspection_id"
+                                 baseTableName="rel_inspection__disease"
+                                 constraintName="fk_rel_inspection__disease__inspection_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="inspection"/>
+
+        <addForeignKeyConstraint baseColumnNames="disease_id"
+                                 baseTableName="rel_inspection__disease"
+                                 constraintName="fk_rel_inspection__disease__disease_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="disease"/>
+    </changeSet>
+</databaseChangeLog>

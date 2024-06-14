@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Hive</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="fixed">ID</ion-label>
+      <div item-content>
+        <span id="id-content">{{hive.id}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Code</ion-label>
+      <div item-content>
+        <span id="code-content">{{hive.code}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Apiary</ion-label>
+      <div item-content *ngIf="hive.apiaryId">
+        <a>{{hive.apiaryId}}</a>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="open(hive)">{{ 'EDIT_BUTTON' | translate }}</ion-button>
+  <ion-button expand="block" color="danger" (click)="deleteModal(hive)">{{ 'DELETE_BUTTON' | translate }}</ion-button>
+</ion-content>

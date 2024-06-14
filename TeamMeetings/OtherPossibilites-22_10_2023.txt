@@ -1,0 +1,2 @@
+Possibilidade de gestão de entidades (Ex: em vez de fazer enumerados, tendo tipos de Uts/Sessoes, fazer entidades com possibilidade do utilizador fazer a sua gestao)
+Com isto, em vez de ser um portal SAS de abelhas/apiarios/etc..., abria portas para ser um portal de qualquer coisa (Empresa X, fazer gestao de operadores de máquinas)

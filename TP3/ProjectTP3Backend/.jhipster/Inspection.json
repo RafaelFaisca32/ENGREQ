@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195842",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "inspection",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "note",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "InspectionType",
+      "fieldValues": "EXTERNAL,INTERNAL"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "InspectionState",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "REGISTERED,ANNULLED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Inspection",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "hive",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "disease",
+      "otherEntityRelationshipName": "inspection",
+      "ownerSide": true,
+      "relationshipName": "disease",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

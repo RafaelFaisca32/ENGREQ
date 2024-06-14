@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Desdobramento</ion-title>
+    <ion-buttons slot="end">
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="fixed">ID</ion-label>
+      <div item-content>
+        <span id="id-content">{{unfolding.id}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Observações</ion-label>
+      <div item-content>
+        <span id="observations-content">{{unfolding.observations}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Data</ion-label>
+      <div item-content>
+        <span id="date-content">{{unfolding.date | date:'medium'}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Estado</ion-label>
+      <div item-content>
+        <span id="state-content">{{unfolding.state}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Colmeia Criada</ion-label>
+      <div item-content *ngIf="unfolding.createdHiveId">
+        <a>{{unfolding.createdHiveId}}</a>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Colmeia</ion-label>
+      <div item-content *ngIf="unfolding.hiveId">
+        <a>{{unfolding.hiveId}}</a>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Quadros Removidos da Colmeia antiga</ion-label>
+      <div item-content>
+        <span *ngFor="let removedFramesOldHive of unfolding.removedFramesOldHives; let last = last">
+          <a>{{removedFramesOldHive.id}}</a>{{last ? '' : ', '}}
+        </span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Quadros inseridos na Colmeia antiga</ion-label>
+      <div item-content>
+        <span *ngFor="let insertedFramesOldHive of unfolding.insertedFramesOldHives; let last = last">
+          <a>{{insertedFramesOldHive.id}}</a>{{last ? '' : ', '}}
+        </span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Quadros inseridos na Colmeia nova</ion-label>
+      <div item-content>
+        <span *ngFor="let insertedFramesNewHive of unfolding.insertedFramesNewHives; let last = last">
+          <a>{{insertedFramesNewHive.id}}</a>{{last ? '' : ', '}}
+        </span>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="danger" (click)="deleteModal(unfolding)" [hidden]="this.isAnulled">ANULAR</ion-button>
+</ion-content>

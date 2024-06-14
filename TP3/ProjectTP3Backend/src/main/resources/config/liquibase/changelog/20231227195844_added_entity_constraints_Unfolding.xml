@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Unfolding.
+    -->
+    <changeSet id="20231227195844-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="created_hive_id"
+                                 baseTableName="unfolding"
+                                 constraintName="fk_unfolding__created_hive_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hive"/>
+
+        <addForeignKeyConstraint baseColumnNames="hive_id"
+                                 baseTableName="unfolding"
+                                 constraintName="fk_unfolding__hive_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hive"/>
+
+        <addForeignKeyConstraint baseColumnNames="unfolding_id"
+                                 baseTableName="rel_unfolding__removed_frames_old_hive"
+                                 constraintName="fk_rel_unfolding__removed_frames_old_hive__unfolding_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unfolding"/>
+
+        <addForeignKeyConstraint baseColumnNames="removed_frames_old_hive_id"
+                                 baseTableName="rel_unfolding__removed_frames_old_hive"
+                                 constraintName="fk_rel_unfolding__removed_frame__removed_frames_old_hive_62_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="frame"/>
+
+        <addForeignKeyConstraint baseColumnNames="unfolding_id"
+                                 baseTableName="rel_unfolding__inserted_frames_old_hive"
+                                 constraintName="fk_rel_unfolding__inserted_frames_old_hive__unfolding_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unfolding"/>
+
+        <addForeignKeyConstraint baseColumnNames="inserted_frames_old_hive_id"
+                                 baseTableName="rel_unfolding__inserted_frames_old_hive"
+                                 constraintName="fk_rel_unfolding__inserted_fram__inserted_frames_old_hive_3e_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="frame"/>
+
+        <addForeignKeyConstraint baseColumnNames="unfolding_id"
+                                 baseTableName="rel_unfolding__inserted_frames_new_hive"
+                                 constraintName="fk_rel_unfolding__inserted_frames_new_hive__unfolding_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="unfolding"/>
+
+        <addForeignKeyConstraint baseColumnNames="inserted_frames_new_hive_id"
+                                 baseTableName="rel_unfolding__inserted_frames_new_hive"
+                                 constraintName="fk_rel_unfolding__inserted_fram__inserted_frames_new_hive_20_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="frame"/>
+    </changeSet>
+</databaseChangeLog>

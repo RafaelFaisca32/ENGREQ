@@ -1,0 +1,66 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195844",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "unfolding",
+  "fields": [
+    {
+      "fieldName": "observations",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "UnfoldingState",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "REGISTERED,ANNULLED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Unfolding",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "unfoldingCreatedHive",
+      "ownerSide": true,
+      "relationshipName": "createdHive",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "unfolding",
+      "relationshipName": "hive",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "frame",
+      "otherEntityRelationshipName": "unfoldingRemovedFramesOldHive",
+      "ownerSide": true,
+      "relationshipName": "removedFramesOldHive",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "frame",
+      "otherEntityRelationshipName": "unfoldingInsertedFramesOldHive",
+      "ownerSide": true,
+      "relationshipName": "insertedFramesOldHive",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "frame",
+      "otherEntityRelationshipName": "unfoldingInsertedFramesNewHive",
+      "ownerSide": true,
+      "relationshipName": "insertedFramesNewHive",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

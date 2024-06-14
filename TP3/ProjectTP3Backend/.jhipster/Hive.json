@@ -1,0 +1,67 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195840",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "hive",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Hive",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "apiary",
+      "otherEntityRelationshipName": "hive",
+      "relationshipName": "apiary",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "frame",
+      "otherEntityRelationshipName": "hive",
+      "ownerSide": true,
+      "relationshipName": "frame",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "unfolding",
+      "otherEntityRelationshipName": "createdHive",
+      "ownerSide": false,
+      "relationshipName": "unfoldingCreatedHive",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "crest",
+      "otherEntityRelationshipName": "hive",
+      "relationshipName": "crest",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "unfolding",
+      "otherEntityRelationshipName": "hive",
+      "relationshipName": "unfolding",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "hive",
+      "relationshipName": "inspection",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "transhumanceRequest",
+      "otherEntityRelationshipName": "hive",
+      "ownerSide": false,
+      "relationshipName": "transhumanceRequest",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Apiary.
+    -->
+    <changeSet id="20231208211609-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="zone_id"
+                                 baseTableName="apiary"
+                                 constraintName="fk_apiary__zone_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="zone"/>
+
+        <addForeignKeyConstraint baseColumnNames="beekeeper_id"
+                                 baseTableName="apiary"
+                                 constraintName="fk_apiary__beekeeper_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="beekeeper"/>
+    </changeSet>
+</databaseChangeLog>

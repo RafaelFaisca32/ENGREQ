@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> {{ 'WELCOME_TITLE' | translate }}, Java Hipster! </ion-title>
+    <ion-buttons slot="end">
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="network.onlineIndicator" class="ion-padding">
+  <span class="hipster"></span>
+  <div>
+    <ion-button expand="block" routerLink="/login" id="signIn">{{ 'LOGIN' | translate }}</ion-button>
+
+    <p>{{ 'NO_ACCOUNT_MESSAGE' | translate }}</p>
+    <ion-button expand="block" routerLink="/signup">{{ 'SIGNUP' | translate }}</ion-button>
+  </div>
+</ion-content>
+<ion-content *ngIf="!network.onlineIndicator" class="ion-padding">
+  <span class="hipster"></span>
+  <div>
+    <ion-button expand="block" (click)="goToOffline()" id="offlineApp">OFFLINE APP</ion-button>
+  </div>
+</ion-content>

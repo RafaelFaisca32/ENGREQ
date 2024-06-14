@@ -1,0 +1,73 @@
+@startuml DomainModelPL
+
+top to bottom direction
+
+object User
+object Hive
+object Apiary
+object Zone
+object Appointment
+object Session 
+object SessionResult
+object ApiaryCertification
+object ApiaryCertificationError
+'object ApiaryCertificationHistory
+object Certification
+object CommunicationPost
+object Fine
+object SanitaryLock
+object Product
+object ProductQuantity
+object Message
+object Alert
+object TranshumanceRequest
+object ZonePermissionRequest
+object ZonePermission
+
+User "1" --> "*" Apiary : has
+Apiary "1" --> "*" Hive : contains
+Apiary "1" --> "1" Zone : is located
+Zone "1" --> "1" User : managed by
+
+Appointment "1" --> "*" User : participants
+Appointment "1" -- "1" Session 
+
+Session "1" --> "1" Apiary 
+Session "1" --> "1" SessionResult : generates
+
+
+SessionResult "1" --> "0..*" Fine : can result in
+Fine "1" --> "0..1" Apiary
+
+Apiary "1" --> "*" ApiaryCertification
+
+ApiaryCertification "1" --> "1" Certification
+
+ApiaryCertification "1" --> "1" ApiaryCertification : renew
+
+ApiaryCertification "1" --> "0..*" ApiaryCertificationError
+
+CommunicationPost "1" --> "1" User : is created by
+
+SanitaryLock "1" --> "1" Apiary
+
+Apiary "1" --> "*" ProductQuantity
+
+ProductQuantity "1" --> "1" Product 
+'User ..> CommunicationPost : visualizes 
+
+Message "1" --> "1" User : sent to
+Message "1" --> "1" User : recieved by
+
+Alert "1" --> "1" User : is launched by
+Alert "1" --> "*" User : is recieved by
+
+'ZonePermissionRequest "1" ..> "1" User : creates
+'ZonePermissionRequest "1" ..> "1" User : management entity accepts
+ZonePermissionRequest "1" --> "1" User 
+ZonePermissionRequest "1" --> "1" Zone
+
+ZonePermission "1" -> "1" Zone
+ZonePermission "1" -> "*" User
+
+@enduml

@@ -1,0 +1,94 @@
+{
+  "applications": "*",
+  "changelogDate": "20231208211619",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "annual_inventory_declaration",
+  "fields": [
+    {
+      "fieldName": "total",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperFaxNumber",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperCompleteName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperNif",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperAddress",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperPostalCode",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperPhoneNumber",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperEntityZoneResidence",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "beekeeperNumber",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "annualInventoryDeclarationState",
+      "fieldType": "AnnualInventoyDeclarationState",
+      "fieldValues": "APPROVED,DECLINED,PENDING"
+    },
+    {
+      "fieldName": "revisionDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "revisionLocation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "revisorSignature",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "revisorName",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "AnnualInventoryDeclaration",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "apiaryInformation",
+      "otherEntityRelationshipName": "annualInventoryDeclaration",
+      "relationshipName": "apiaryInformation",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

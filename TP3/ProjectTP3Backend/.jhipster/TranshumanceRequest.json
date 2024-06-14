@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195846",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "transhumance_request",
+  "fields": [
+    {
+      "fieldName": "requestDate",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "TranshumanceRequestState",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "NOT_APPROVED,APPROVED,PENDING,ANNULLED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "TranshumanceRequest",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "beekeeper",
+      "otherEntityRelationshipName": "transhumanceRequest",
+      "relationshipName": "beekeeper",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "apiary",
+      "otherEntityRelationshipName": "transhumanceRequest",
+      "relationshipName": "apiary",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "transhumanceRequest",
+      "ownerSide": true,
+      "relationshipName": "hive",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Inspection</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="fixed">ID</ion-label>
+      <div item-content>
+        <span id="id-content">{{inspection.id}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Date</ion-label>
+      <div item-content>
+        <span id="date-content">{{inspection.date | date:'mediumDate'}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Note</ion-label>
+      <div item-content>
+        <span id="note-content">{{inspection.note}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Hive</ion-label>
+      <div item-content *ngIf="inspection.hiveId">
+        <a>{{inspection.hiveundefined}}</a>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Disease</ion-label>
+      <div item-content>
+        <span *ngFor="let disease of inspection.diseases; let last = last"> <a>{{disease.id}}</a>{{last ? '' : ', '}} </span>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="open(inspection)">{{ 'EDIT_BUTTON' | translate }}</ion-button>
+  <ion-button expand="block" color="danger" (click)="deleteModal(inspection)">{{ 'DELETE_BUTTON' | translate }}</ion-button>
+</ion-content>

@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20231208211612",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "frame",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Frame",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "frame",
+      "relationshipName": "hive",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

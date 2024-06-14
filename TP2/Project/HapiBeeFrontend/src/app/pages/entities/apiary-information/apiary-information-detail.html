@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Apiary Information</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="fixed">ID</ion-label>
+      <div item-content>
+        <span id="id-content">{{apiaryInformation.id}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Zone Number</ion-label>
+      <div item-content>
+        <span id="zoneNumber-content">{{apiaryInformation.zoneNumber}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Zone Name</ion-label>
+      <div item-content>
+        <span id="zoneName-content">{{apiaryInformation.zoneName}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Number Hives</ion-label>
+      <div item-content>
+        <span id="numberHives-content">{{apiaryInformation.numberHives}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Intensive</ion-label>
+      <div item-content>
+        <span id="intensive-content">{{apiaryInformation.intensive}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Transhumance</ion-label>
+      <div item-content>
+        <span id="transhumance-content">{{apiaryInformation.transhumance}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Coord X</ion-label>
+      <div item-content>
+        <span id="coordX-content">{{apiaryInformation.coordX}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Coord Y</ion-label>
+      <div item-content>
+        <span id="coordY-content">{{apiaryInformation.coordY}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Coord Z</ion-label>
+      <div item-content>
+        <span id="coordZ-content">{{apiaryInformation.coordZ}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Number Frames</ion-label>
+      <div item-content>
+        <span id="numberFrames-content">{{apiaryInformation.numberFrames}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Annual Inventory Declaration</ion-label>
+      <div item-content *ngIf="apiaryInformation.annualInventoryDeclarationId">
+        <a>{{apiaryInformation.annualInventoryDeclarationundefined}}</a>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="primary" (click)="open(apiaryInformation)">{{ 'EDIT_BUTTON' | translate }}</ion-button>
+  <ion-button expand="block" color="danger" (click)="deleteModal(apiaryInformation)">{{ 'DELETE_BUTTON' | translate }}</ion-button>
+</ion-content>

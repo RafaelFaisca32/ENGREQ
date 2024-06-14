@@ -1,0 +1,32 @@
+@startuml md
+
+entity Crest as "Crest"
+entity Unfolding as "Unfolding"
+entity TR as "Transhumance Request"
+entity Inspection as "Inspection"
+entity Hive as "Hive"
+entity Apiary as "Apiary"
+entity Beekeeper as "Beekeeper"
+entity Zone as "Zone"
+entity User as "User"
+entity Disease as "Disease"
+entity AnnualInventoryDeclaration as "Annual Inventory Declaration"
+entity ApiaryInformation as "Apiary Information"
+
+Zone "1" <-- "1" Apiary
+User "1" <-- "1" Beekeeper
+Beekeeper "1" <-- "*" Apiary
+Hive "*" -->  "1" Apiary
+Unfolding "*" --> "1" Hive
+Crest "*" --> "1" Hive
+Inspection "*" --> "*" Disease
+Inspection "*" --> "1" Hive
+TR "*" --> "1" Apiary
+TR "*" --> "*" Hive
+
+AnnualInventoryDeclaration "1" <-- "*" ApiaryInformation
+
+
+
+
+@enduml

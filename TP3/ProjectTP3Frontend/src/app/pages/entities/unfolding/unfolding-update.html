@@ -1,0 +1,94 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Desdobramento</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="save()" color="primary">
+        <span *ngIf="platform.is('ios')">{{'DONE_BUTTON' | translate}}</span>
+        <ion-icon name="checkmark" *ngIf="!platform.is('ios')"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form *ngIf="form" name="form" [formGroup]="form" (ngSubmit)="save()">
+    <ion-list>
+      <!-- <ion-item [hidden]="!form.id">
+        <ion-label>ID</ion-label>
+        <ion-input type="hidden" id="id" formControlName="id" readonly></ion-input>
+      </ion-item> -->
+      <ion-item>
+        <ion-label position="floating">Observações</ion-label>
+        <ion-input type="text" name="observations" formControlName="observations"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Data</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY HH:mm" formControlName="date" id="field_date"></ion-datetime>
+      </ion-item>
+      <ion-item [hidden]="this.isNew">
+        <ion-label>Estado</ion-label>
+        <ion-select formControlName="state" id="field_state" required>
+          <ion-select-option value="REGISTERED">REGISTERED</ion-select-option>
+          <ion-select-option value="ANNULLED">ANNULLED</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item [hidden]="this.isNew" [disabled]="true">
+        <ion-label>Colmeia criada</ion-label>
+        <ion-input type="text" id="field_createdHive" name="field_createdHive" formControlName="createdHiveId"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Colmeia</ion-label>
+        <ion-select id="field_hive" formControlName="hiveId" [compareWith]="compareHive" (ionChange)="hiveSelection()">
+          <ion-select-option [value]="null"></ion-select-option>
+          <ion-select-option [value]="hiveOption.id" *ngFor="let hiveOption of hives; trackBy: trackHiveById"
+            >{{hiveOption.id}}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Quadros Removidos da Colmeia antiga</ion-label>
+        <ion-select id="field_removedFramesOldHive" multiple="true" formControlName="removedFramesOldHives" [compareWith]="compareFrame">
+          <ion-select-option [value]="frameOption" *ngFor="let frameOption of framesOldHive; trackBy: trackFrameById"
+            >{{frameOption.id}}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Quadros inseridos na Colmeia antiga</ion-label>
+        <ion-select id="field_insertedFramesOldHive" multiple="true" formControlName="insertedFramesOldHives" [compareWith]="compareFrame" (ionChange)="loadAvailableFrames()">
+          <ion-select-option [value]="frameOption" *ngFor="let frameOption of newFramesOldHive; trackBy: trackFrameById"
+            >{{frameOption.id}}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Quadros inseridos na Colmeia nova</ion-label>
+        <ion-select id="field_insertedFramesNewHive" multiple="true" formControlName="insertedFramesNewHives" [compareWith]="compareFrame" (ionChange)="loadAvailableFrames()">
+          <ion-select-option [value]="frameOption" *ngFor="let frameOption of newFramesNewHive; trackBy: trackFrameById"
+            >{{frameOption.id}}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+      <ion-list [hidden]="!this.isNew">
+        <ion-item [hidden]="true">
+          <ion-label>ID</ion-label>
+          <ion-input type="hidden" id="newHiveId" formControlName="newHiveId" readonly></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Código Nova Colmeia</ion-label>
+          <ion-input type="text" name="newHiveCode" formControlName="newHiveCode"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-list>
+  </form>
+</ion-content>

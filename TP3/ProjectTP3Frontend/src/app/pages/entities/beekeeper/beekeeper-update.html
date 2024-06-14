@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Beekeeper</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button [disabled]="!isReadyToSave" (click)="save()" color="primary">
+        <span *ngIf="platform.is('ios')">{{'DONE_BUTTON' | translate}}</span>
+        <ion-icon name="checkmark" *ngIf="!platform.is('ios')"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form *ngIf="form" name="form" [formGroup]="form" (ngSubmit)="save()">
+    <ion-list>
+      <!-- <ion-item [hidden]="!form.id">
+        <ion-label>ID</ion-label>
+        <ion-input type="hidden" id="id" formControlName="id" readonly></ion-input>
+      </ion-item> -->
+      <ion-item>
+        <ion-label position="floating">Beekeeper Complete Name</ion-label>
+        <ion-input type="text" name="beekeeperCompleteName" formControlName="beekeeperCompleteName"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Number</ion-label>
+        <ion-input type="number" name="beekeeperNumber" formControlName="beekeeperNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Entity Zone Residence</ion-label>
+        <ion-input type="number" name="entityZoneResidence" formControlName="entityZoneResidence"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Nif</ion-label>
+        <ion-input type="number" name="nif" formControlName="nif"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Address</ion-label>
+        <ion-input type="text" name="address" formControlName="address"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Postal Code</ion-label>
+        <ion-input type="text" name="postalCode" formControlName="postalCode"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Phone Number</ion-label>
+        <ion-input type="number" name="phoneNumber" formControlName="phoneNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Fax Number</ion-label>
+        <ion-input type="number" name="faxNumber" formControlName="faxNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>State</ion-label>
+        <ion-select formControlName="state" id="field_state" required>
+          <ion-select-option value="REGISTERED">REGISTERED</ion-select-option>
+          <ion-select-option value="ANNULLED">ANNULLED</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item [hidden]="from === 'newUser'">
+        <ion-label>User</ion-label>
+        <ion-select id="field_user" formControlName="userId" [compareWith]="compareUser">
+          <ion-select-option [value]="null"></ion-select-option>
+          <ion-select-option [value]="userOption.id" *ngFor="let userOption of users; trackBy: trackUserById"
+            >{{userOption.id}}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>

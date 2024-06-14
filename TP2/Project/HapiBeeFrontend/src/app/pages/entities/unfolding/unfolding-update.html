@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Desdobramento</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button [disabled]="!isReadyToSave" (click)="save()" color="primary">
+        <span *ngIf="platform.is('ios')">{{'DONE_BUTTON' | translate}}</span>
+        <ion-icon name="checkmark" *ngIf="!platform.is('ios')"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form *ngIf="form" name="form" [formGroup]="form" (ngSubmit)="save()">
+    <ion-list>
+      <ion-item [hidden]="!form.id">
+        <ion-label>ID</ion-label>
+        <ion-input type="hidden" id="id" formControlName="id" readonly></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Observações</ion-label>
+        <ion-input type="text" name="observations" formControlName="observations"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Data</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY HH:mm" formControlName="date" id="field_date"></ion-datetime>
+      </ion-item>
+      <ion-item>
+        <ion-label>Colmeia</ion-label>
+        <ion-select id="field_hive" formControlName="hiveId" [compareWith]="compareHive">
+          <ion-select-option [value]="null"></ion-select-option>
+          <ion-select-option [value]="hiveOption.id" *ngFor="let hiveOption of hives; trackBy: trackHiveById"
+            >{{hiveOption.id}}</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+      <ion-list [hidden]="!this.isNew">
+        <ion-item [hidden]="true">
+          <ion-label>ID</ion-label>
+          <ion-input type="hidden" id="newHiveId" formControlName="newHiveId" readonly></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Código Nova Colmeia</ion-label>
+          <ion-input type="text" name="newHiveCode" formControlName="newHiveCode"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-list>
+  </form>
+</ion-content>

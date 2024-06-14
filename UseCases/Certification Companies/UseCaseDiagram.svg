@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="730px" preserveAspectRatio="none" style="width:581px;height:730px;background:#FFFFFF;" version="1.1" viewBox="0 0 581 730" width="581px" zoomAndPan="magnify"><defs/><g><!--MD5=[db956f40f2dc50163091c98812b3e6f0]
+entity cc--><g id="elem_cc"><ellipse cx="81" cy="319.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M81,327.5 L81,354.5 M68,335.5 L94,335.5 M81,354.5 L68,369.5 M81,354.5 L94,369.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="6" y="385.5332">Certification Companies</text></g><g id="elem_uc1"><ellipse cx="395.4296" cy="39.7859" fill="#F1F1F1" rx="156.9296" ry="33.7859" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="283" x="253.9296" y="43.5144">Marcação de sessões [marcar/adiar/eliminar]</text></g><g id="elem_uc2"><ellipse cx="395.2727" cy="136.7545" fill="#F1F1F1" rx="124.2727" ry="27.2545" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="288.2727" y="140.4831">Registo de Inspeções [resultados]</text></g><g id="elem_uc3"><ellipse cx="395.3167" cy="225.8633" fill="#F1F1F1" rx="117.3167" ry="25.8633" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="295.8167" y="229.5919">Criação do Relatório da sessão</text></g><g id="elem_uc4"><ellipse cx="395.4525" cy="308.7905" fill="#F1F1F1" rx="96.9525" ry="21.7905" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="318.4525" y="312.519">Registo de Certificações</text></g><g id="elem_uc5"><ellipse cx="395.434" cy="390.9868" fill="#F1F1F1" rx="110.434" ry="24.4868" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="303.434" y="394.7153">Revalidação de Certificações</text></g><g id="elem_uc6"><ellipse cx="395.5759" cy="488.8152" fill="#F1F1F1" rx="179.5759" ry="38.3152" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="330" x="230.5759" y="492.5437">Visualização do Histórico dos tratamentos realizados</text></g><g id="elem_uc7"><ellipse cx="395.4928" cy="595.9986" fill="#F1F1F1" rx="155.4928" ry="33.4986" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="280" x="255.4928" y="599.7271">Visualização dos requisitos das certificações</text></g><g id="elem_uc8"><ellipse cx="395.3863" cy="694.9773" fill="#F1F1F1" rx="137.8863" ry="29.9773" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="273.8863" y="698.7058">Registo de dificuldades que enfrentam</text></g><!--MD5=[2d6dad20133285d07bd6156c4d5fa94e]
+link cc to uc1--><g id="link_cc_uc1"><path d="M91.86,310.53 C108.07,253.79 145.79,149.66 216,92 C231.06,79.63 248.95,70.2 267.49,63.02 " fill="none" id="cc-to-uc1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="272.22,61.24,262.3885,60.6548,267.5384,62.9956,265.1975,68.1454,272.22,61.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[977d5e71781ad55de61211a3306106a1]
+link cc to uc2--><g id="link_cc_uc2"><path d="M103.01,310.84 C125.77,272.23 165.66,214.43 216,182 C236.44,168.83 260.5,159.52 284.22,152.93 " fill="none" id="cc-to-uc2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="289.28,151.56,279.5443,150.0714,284.4565,152.8768,281.6512,157.789,289.28,151.56" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4206dcc5c6d7af1ae836dbffe2b229a3]
+link cc to uc3--><g id="link_cc_uc3"><path d="M138,310.86 C161.27,296.02 189.1,280.06 216,269 C241.95,258.33 271.16,249.92 298.32,243.47 " fill="none" id="cc-to-uc3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="303.36,242.28,293.6843,240.4414,298.4922,243.422,295.5115,248.2299,303.36,242.28" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0d30cc47e80cbffcd0aee499c80cce91]
+link cc to uc4--><g id="link_cc_uc4"><path d="M156.06,340.28 C200.99,334.39 258.59,326.83 305.93,320.62 " fill="none" id="cc-to-uc4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="311.06,319.95,301.6124,317.1674,306.1034,320.6071,302.6637,325.098,311.06,319.95" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8554fad5150c8dc0acc7be56b858d534]
+link cc to uc5--><g id="link_cc_uc5"><path d="M156.06,359.72 C197.51,365.15 249.74,372.01 294.75,377.91 " fill="none" id="cc-to-uc5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="299.92,378.59,291.5092,373.4658,294.9615,377.947,290.4803,381.3993,299.92,378.59" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[94d9575de29c4b6bf6d7cb96e488928c]
+link cc to uc6--><g id="link_cc_uc6"><path d="M137.96,389.02 C161.34,404.16 189.25,420.76 216,433 C235.77,442.05 257.4,450.19 278.57,457.29 " fill="none" id="cc-to-uc6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="283.37,458.88,276.1028,452.2326,278.628,457.2946,273.5661,459.8198,283.37,458.88" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[67661af4c0b30a53aeeccf1da0c018b9]
+link cc to uc7--><g id="link_cc_uc7"><path d="M98.76,389 C119.77,433.32 159.98,504.71 216,545 C232.4,556.8 251.47,565.87 270.93,572.86 " fill="none" id="cc-to-uc7" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="275.88,574.59,268.7158,567.8317,271.1629,572.9319,266.0628,575.379,275.88,574.59" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[81dc4d3c152483cf7712200b398be922]
+link cc to uc8--><g id="link_cc_uc8"><path d="M88.6,389.18 C101.43,452.94 135.85,578.83 216,647 C232.18,660.76 251.93,670.62 272.31,677.66 " fill="none" id="cc-to-uc8" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="277.23,679.31,269.9628,672.6626,272.488,677.7246,267.4261,680.2498,277.23,679.31" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[700908fede09f4b1a62d7e779c3c1f24]
+@startuml UseCaseDiagram
+
+left to right direction
+
+:Certification Companies: as cc
+
+(Marcação de sessões [marcar/adiar/eliminar]) as uc1
+(Registo de Inspeções [resultados]) as uc2
+(Criação do Relatório da sessão) as uc3
+(Registo de Certificações) as uc4
+(Revalidação de Certificações) as uc5
+(Visualização do Histórico dos tratamentos realizados) as uc6
+(Visualização dos requisitos das certificações) as uc7
+(Registo de dificuldades que enfrentam) as uc8
+
+cc - -> uc1
+cc - -> uc2
+cc - -> uc3
+cc - -> uc4
+cc - -> uc5
+cc - -> uc6
+cc - -> uc7
+cc - -> uc8
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

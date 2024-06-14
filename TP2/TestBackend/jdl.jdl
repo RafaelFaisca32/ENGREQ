@@ -1,0 +1,160 @@
+entity Apiary {
+    name String unique required
+    state ApiaryState required
+    number Integer required
+    intensive Boolean required
+    transhumance Boolean required
+}
+
+entity Beekeeper {
+	beekeeperCompleteName String
+	beekeeperNumber Integer
+    entityZoneResidence Integer
+    nif Integer
+    address String
+    postalCode String
+    phoneNumber Integer
+    faxNumber Integer
+}
+
+entity Hive {
+    code String unique required
+}
+
+entity Frame {
+	code String unique
+}
+
+entity Zone {
+	name String required
+    number Integer required
+    coordX String required
+    coordY String required
+    coordZ String required
+    controlledZone Boolean required
+}
+
+entity Inspection {
+    date LocalDate required
+    note String
+}
+
+entity Disease {
+    name String
+    description String
+}
+
+entity Unfolding {
+    observations String
+    date ZonedDateTime required
+}
+
+entity Crest {
+    combFrameQuantity Integer required
+    waxWeight Float required
+    timeWastedCentrifuge Float required
+    initialDateDecantation ZonedDateTime required
+    finalDateDecantation ZonedDateTime
+    producedHoneyQuantity Float
+    state CrestState required
+}
+
+entity TranshumanceRequest {
+    requestDate ZonedDateTime required
+    state TranshumanceRequestState required
+}
+
+entity AnnualInventoryDeclaration {
+	total Integer required
+    beekeeperFaxNumber Integer required
+	beekeeperCompleteName String required
+	beekeeperNif Integer required
+    date LocalDate required
+    beekeeperAddress String required
+    beekeeperPostalCode String required
+    beekeeperPhoneNumber Integer required
+    beekeeperEntityZoneResidence String required
+    beekeeperNumber Integer required
+    annualInventoryDeclarationState AnnualInventoyDeclarationState
+	revisionDate LocalDate
+    revisionLocation String
+    revisorSignature String
+    revisorName String
+}
+
+entity ApiaryInformation {
+	zoneNumber Integer required
+	zoneName String required
+    numberHives Integer required
+    intensive Boolean required
+    transhumance Boolean required
+    coordX String required
+    coordY String required
+    coordZ String required
+    numberFrames Integer required
+}
+
+enum AnnualInventoyDeclarationState {
+	APPROVED, DECLINED, PENDING
+}
+
+enum CrestState {
+    DECANTATION, FINALIZED
+}
+
+enum ApiaryState {
+    NOT_APPROVED, APPROVED, PENDING
+}
+
+enum TranshumanceRequestState {
+    NOT_APPROVED, APPROVED, PENDING
+}
+
+relationship OneToOne {
+    Apiary to Zone
+}
+relationship ManyToOne {
+    Crest to Hive
+}
+relationship ManyToOne {
+    Unfolding to Hive
+}
+relationship ManyToOne {
+    Hive to Apiary
+}
+relationship ManyToOne {
+    Frame to Hive
+}
+relationship ManyToOne {
+    TranshumanceRequest to Apiary
+}
+relationship ManyToMany {
+    TranshumanceRequest to Hive
+}
+relationship ManyToOne {
+    Inspection to Hive
+}
+relationship ManyToMany {
+    Inspection to Disease
+}
+relationship OneToMany {
+    AnnualInventoryDeclaration to ApiaryInformation
+}
+relationship OneToOne {
+	Beekeeper to User
+}
+relationship ManyToOne {
+	Apiary to Beekeeper
+}
+
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+paginate all with pagination
+filter all
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

@@ -1,0 +1,20 @@
+@startuml UseCaseDiagram
+
+left to right direction
+
+:Beekeeper Manager: as bm
+
+(Criar Tarefas) as uc1
+(Atribuir Tarefas) as uc2
+(Visualizar todas as tarefas) as uc3
+(Registar Apicultores e os seus dados) as uc4
+(Registar Apiários e os seus dados) as uc5
+
+bm --> uc1
+bm --> uc2
+bm --> uc3
+bm --> uc4
+bm --> uc5
+
+@enduml
+

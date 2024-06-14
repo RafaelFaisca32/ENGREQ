@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="712px" preserveAspectRatio="none" style="width:1614px;height:712px;background:#FFFFFF;" version="1.1" viewBox="0 0 1614 712" width="1614px" zoomAndPan="magnify"><defs/><g><g id="elem_User"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="43" x="486.23" y="338"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="493.23" y="354.5332">User</text><line style="stroke:#181818;stroke-width:0.5;" x1="487.23" x2="528.23" y1="359.6094" y2="359.6094"/></g><g id="elem_Hive"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="41" x="1188.23" y="570"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="1195.23" y="586.5332">Hive</text><line style="stroke:#181818;stroke-width:0.5;" x1="1189.23" x2="1228.23" y1="591.6094" y2="591.6094"/></g><g id="elem_Apiary"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="54" x="1301.73" y="454"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="1308.73" y="470.5332">Apiary</text><line style="stroke:#181818;stroke-width:0.5;" x1="1302.73" x2="1354.73" y1="475.6094" y2="475.6094"/></g><g id="elem_Zone"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="46" x="1034.73" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1041.73" y="238.5332">Zone</text><line style="stroke:#181818;stroke-width:0.5;" x1="1035.73" x2="1079.73" y1="243.6094" y2="243.6094"/></g><g id="elem_Appointment"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="93" x="255.23" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="262.23" y="23.5332">Appointment</text><line style="stroke:#181818;stroke-width:0.5;" x1="256.23" x2="347.23" y1="28.6094" y2="28.6094"/></g><g id="elem_Session"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="64" x="1333.73" y="106"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1340.73" y="122.5332">Session</text><line style="stroke:#181818;stroke-width:0.5;" x1="1334.73" x2="1396.73" y1="127.6094" y2="127.6094"/></g><g id="elem_SessionResult"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="104" x="1313.73" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="1320.73" y="238.5332">SessionResult</text><line style="stroke:#181818;stroke-width:0.5;" x1="1314.73" x2="1416.73" y1="243.6094" y2="243.6094"/></g><g id="elem_ApiaryCertification"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="129" x="1264.23" y="570"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1271.23" y="586.5332">ApiaryCertification</text><line style="stroke:#181818;stroke-width:0.5;" x1="1265.23" x2="1392.23" y1="591.6094" y2="591.6094"/></g><g id="elem_ApiaryCertificationError"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="161" x="1285.23" y="669"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="1292.23" y="685.5332">ApiaryCertificationError</text><line style="stroke:#181818;stroke-width:0.5;" x1="1286.23" x2="1445.23" y1="690.6094" y2="690.6094"/></g><g id="elem_Certification"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="89" x="1161.23" y="669"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1168.23" y="685.5332">Certification</text><line style="stroke:#181818;stroke-width:0.5;" x1="1162.23" x2="1249.23" y1="690.6094" y2="690.6094"/></g><g id="elem_CommunicationPost"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="139" x="860.23" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="867.23" y="238.5332">CommunicationPost</text><line style="stroke:#181818;stroke-width:0.5;" x1="861.23" x2="998.23" y1="243.6094" y2="243.6094"/></g><g id="elem_Fine"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="42" x="1344.73" y="338"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="1351.73" y="354.5332">Fine</text><line style="stroke:#181818;stroke-width:0.5;" x1="1345.73" x2="1385.73" y1="359.6094" y2="359.6094"/></g><g id="elem_SanitaryLock"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="96" x="1421.73" y="338"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1428.73" y="354.5332">SanitaryLock</text><line style="stroke:#181818;stroke-width:0.5;" x1="1422.73" x2="1516.73" y1="359.6094" y2="359.6094"/></g><g id="elem_Product"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="63" x="1519.23" y="669"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1526.23" y="685.5332">Product</text><line style="stroke:#181818;stroke-width:0.5;" x1="1520.23" x2="1581.23" y1="690.6094" y2="690.6094"/></g><g id="elem_ProductQuantity"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="116" x="1492.73" y="570"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1499.73" y="586.5332">ProductQuantity</text><line style="stroke:#181818;stroke-width:0.5;" x1="1493.73" x2="1607.73" y1="591.6094" y2="591.6094"/></g><g id="elem_Message"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="71" x="17.23" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="24.23" y="238.5332">Message</text><line style="stroke:#181818;stroke-width:0.5;" x1="18.23" x2="87.23" y1="243.6094" y2="243.6094"/></g><g id="elem_Alert"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="43" x="171.23" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="178.23" y="238.5332">Alert</text><line style="stroke:#181818;stroke-width:0.5;" x1="172.23" x2="213.23" y1="243.6094" y2="243.6094"/></g><g id="elem_ZonePermissionRequest"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="168" x="795.73" y="106"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="802.73" y="122.5332">ZonePermissionRequest</text><line style="stroke:#181818;stroke-width:0.5;" x1="796.73" x2="962.73" y1="127.6094" y2="127.6094"/></g><g id="elem_ZonePermission"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="115" x="335.23" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="342.23" y="238.5332">ZonePermission</text><line style="stroke:#181818;stroke-width:0.5;" x1="336.23" x2="449.23" y1="243.6094" y2="243.6094"/></g><g id="elem_Task"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="45" x="485.23" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="492.23" y="238.5332">Task</text><line style="stroke:#181818;stroke-width:0.5;" x1="486.23" x2="529.23" y1="243.6094" y2="243.6094"/></g><g id="elem_Notes"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="50" x="1172.73" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="1179.73" y="238.5332">Notes</text><line style="stroke:#181818;stroke-width:0.5;" x1="1173.73" x2="1221.73" y1="243.6094" y2="243.6094"/></g><g id="elem_AnnualInventoryDeclaration"><rect fill="#F1F1F1" height="37.6094" style="stroke:#181818;stroke-width:0.5;" width="188" x="565.73" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="572.73" y="238.5332">AnnualInventoryDeclaration</text><line style="stroke:#181818;stroke-width:0.5;" x1="566.73" x2="752.73" y1="243.6094" y2="243.6094"/></g><!--MD5=[2f72e1846aafe745f3662633c73b62f8]
+link User to Apiary--><g id="link_User_Apiary"><path codeLine="29" d="M529.27,360.99 C641.67,376.6 1160.99,448.71 1296.38,467.51 " fill="none" id="User-to-Apiary" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1301.41,468.21,1293.045,463.0112,1296.4574,467.5229,1291.9457,470.9353,1301.41,468.21" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="967.73" y="420.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="537.2515" y="378.4252">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1288.7686" y="462.5228">*</text></g><!--MD5=[ace84ce78966904a179d3c90e8b7e83e]
+link Apiary to Hive--><g id="link_Apiary_Hive"><path codeLine="30" d="M1304.83,492.18 C1293.83,500.86 1280.8,511.61 1269.73,522 C1254.89,535.94 1239.33,552.82 1227.64,566.01 " fill="none" id="Apiary-to-Hive" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1224.14,569.99,1233.0846,565.8676,1227.4396,566.2333,1227.0739,560.5883,1224.14,569.99" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="1270.73" y="536.4951">contains</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1290.4663" y="513.0795">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1223.2551" y="558.994">*</text></g><!--MD5=[6a92e7232cdc8ce3815bfc60ebf0f1aa]
+link Apiary to Zone--><g id="link_Apiary_Zone"><path codeLine="31" d="M1301.71,460.22 C1270.05,445.11 1218.08,415.99 1187.73,376 C1163.35,343.87 1185.52,320.16 1158.73,290 C1139.56,268.41 1108.56,255.7 1085.96,248.85 " fill="none" id="Apiary-to-Zone" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1080.99,247.39,1088.4925,253.7706,1085.7861,248.8031,1090.7536,246.0968,1080.99,247.39" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="1188.73" y="362.4951">is located</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1286.8893" y="452.4853">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1088.8508" y="244.5212">1</text></g><!--MD5=[0c85f14acbc9e69e6310b89fd6ca4dc1]
+link Zone to User--><g id="link_Zone_User"><path codeLine="32" d="M1034.58,256.67 C1006.53,274.17 960.69,301.85 941.73,308 C793.8,355.99 604.25,357.89 534.78,356.75 " fill="none" id="Zone-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="529.6,356.66,538.5301,360.8137,534.5993,356.7457,538.6672,352.8149,529.6,356.66" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="976.73" y="304.4951">managed by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1019.7516" y="256.5272">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="537.3696" y="351.7146">1</text></g><!--MD5=[2263f72250a8baab39beeb19735d715e]
+link Appointment to User--><g id="link_Appointment_User"><path codeLine="34" d="M297.19,45.11 C287.76,87.23 270.62,193.25 317.73,260 C337.01,287.32 356.69,275.31 386.73,290 C420.12,306.33 457.54,327.14 481.81,340.98 " fill="none" id="Appointment-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="486.18,343.48,480.356,335.5377,481.8405,340.9962,476.382,342.4808,486.18,343.48" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="290.73" y="188.4951">participants</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="288.0293" y="65.9907">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="473.2134" y="355.2695">*</text></g><!--MD5=[06d75f045fa4b069570f4eea31c38211]
+link Appointment to Session--><g id="link_Appointment_Session"><path codeLine="35" d="M348.48,31.26 C529.37,47.75 1180.88,107.15 1333.56,121.07 " fill="none" id="Appointment-Session" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="356.1745" y="28.3924">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1318.7572" y="116.0366">1</text></g><!--MD5=[0ba2426c6875110e37b50e40b1809b80]
+link Session to Apiary--><g id="link_Session_Apiary"><path codeLine="37" d="M1395.15,144.26 C1457.36,185.22 1592.09,287.75 1535.73,376 C1496.96,436.72 1408.8,459.62 1360.99,467.79 " fill="none" id="Session-to-Apiary" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1355.93,468.62,1365.4605,471.1039,1360.8635,467.8073,1364.1601,463.2103,1355.93,468.62" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1395.116" y="165.181">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1363.7969" y="463.0378">1</text></g><!--MD5=[dc1c621bbcd20ae2e3d60b609a92c488]
+link Session to SessionResult--><g id="link_Session_SessionResult"><path codeLine="38" d="M1365.73,144.06 C1365.73,163.63 1365.73,194.91 1365.73,216.4 " fill="none" id="Session-to-SessionResult" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1365.73,221.64,1369.73,212.64,1365.73,216.64,1361.73,212.64,1365.73,221.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="1366.73" y="188.4951">generates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1357.7456" y="165.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1357.7019" y="211.2071">1</text></g><!--MD5=[caac880da2d1e295d2767c660645f839]
+link SessionResult to Fine--><g id="link_SessionResult_Fine"><path codeLine="41" d="M1365.73,260.06 C1365.73,279.63 1365.73,310.91 1365.73,332.4 " fill="none" id="SessionResult-to-Fine" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1365.73,337.64,1369.73,328.64,1365.73,332.64,1361.73,328.64,1365.73,337.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="1366.73" y="304.4951">can result in</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1357.7456" y="281.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1342.7925" y="327.2071">0..*</text></g><!--MD5=[e0acc5f77ee28f35dc45c25d9f1fef75]
+link Fine to Apiary--><g id="link_Fine_Apiary"><path codeLine="42" d="M1359.87,376.06 C1353.49,395.71 1343.28,427.18 1336.3,448.68 " fill="none" id="Fine-to-Apiary" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1334.69,453.64,1341.2714,446.313,1336.2325,448.8839,1333.6617,443.845,1334.69,453.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1350.2375" y="397.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="1311.2095" y="443.2071">0..1</text></g><!--MD5=[797f93d1b8f0df68816f46e164cd1347]
+link Apiary to ApiaryCertification--><g id="link_Apiary_ApiaryCertification"><path codeLine="44" d="M1328.73,492.06 C1328.73,511.63 1328.73,542.91 1328.73,564.4 " fill="none" id="Apiary-to-ApiaryCertification" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1328.73,569.64,1332.73,560.64,1328.73,564.64,1324.73,560.64,1328.73,569.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1320.7456" y="513.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1322.9956" y="559.2071">*</text></g><!--MD5=[f9053a9aa63b7579207566013bc4ebd6]
+link ApiaryCertification to Certification--><g id="link_ApiaryCertification_Certification"><path codeLine="46" d="M1305.88,608.02 C1285.22,624.32 1254.76,648.34 1232.86,665.61 " fill="none" id="ApiaryCertification-to-Certification" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1228.87,668.75,1238.4185,666.3364,1232.8021,665.6615,1233.477,660.0451,1228.87,668.75" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1291.4691" y="629.2189">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1227.8848" y="658.0135">1</text></g><!--MD5=[d3c56505deac4c6a15d0660897bf2cde]
+link ApiaryCertification to ApiaryCertification--><g id="link_ApiaryCertification_ApiaryCertification"><path codeLine="48" d="M1393.33,580.01 C1412.92,580.24 1428.23,583.23 1428.23,589 C1428.23,594.23 1415.66,597.18 1398.72,597.85 " fill="none" id="ApiaryCertification-to-ApiaryCertification" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1393.33,597.99,1402.4298,601.7573,1398.3283,597.8615,1402.2242,593.76,1393.33,597.99" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="1434.23" y="594.4951">renew</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1401.2041" y="575.5836">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1401.2041" y="595.6425">1</text></g><!--MD5=[c13108feb47f208bd24e9c38f615f626]
+link ApiaryCertification to ApiaryCertificationError--><g id="link_ApiaryCertification_ApiaryCertificationError"><path codeLine="50" d="M1335.69,608.24 C1341.69,623.96 1350.37,646.73 1356.86,663.75 " fill="none" id="ApiaryCertification-to-ApiaryCertificationError" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1358.8,668.84,1359.3227,659.005,1357.0147,664.1696,1351.8501,661.8615,1358.8,668.84" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1329.6199" y="629.1556">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1333.6152" y="658.131">0..*</text></g><!--MD5=[ac22674409b9bde599561cca7deb1111]
+link CommunicationPost to User--><g id="link_CommunicationPost_User"><path codeLine="52" d="M904.06,260.03 C878.83,277.42 841.86,301.97 825.73,308 C722.88,346.44 590.39,354.15 534.49,355.65 " fill="none" id="CommunicationPost-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="529.33,355.78,538.4298,359.5473,534.3283,355.6515,538.2242,351.55,529.33,355.78" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="857.73" y="304.4951">is created by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="888.8559" y="281.2317">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="537.3306" y="371.5545">1</text></g><!--MD5=[9249d806a7962c28c9da7e8f8136c89c]
+link SanitaryLock to Apiary--><g id="link_SanitaryLock_Apiary"><path codeLine="54" d="M1447.39,376.06 C1422.48,396.21 1382.19,428.78 1355.58,450.29 " fill="none" id="SanitaryLock-to-Apiary" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1351.44,453.64,1360.9531,451.0902,1355.3276,450.4957,1355.9221,444.8701,1351.44,453.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1433.1225" y="397.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1350.0829" y="443.2071">1</text></g><!--MD5=[a73eceb36e93d918f81f3a247da8fb70]
+link Apiary to ProductQuantity--><g id="link_Apiary_ProductQuantity"><path codeLine="56" d="M1355.95,487.98 C1394.8,507.92 1466.36,544.67 1511.09,567.64 " fill="none" id="Apiary-to-ProductQuantity" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1515.6,569.96,1509.4269,562.2858,1511.1539,567.6726,1505.7671,569.3996,1515.6,569.96" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1363.822" y="487.3588">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1499.0758" y="559.2878">*</text></g><!--MD5=[b16b70cab900e64bf69fc2aa22f5077a]
+link ProductQuantity to Product--><g id="link_ProductQuantity_Product"><path codeLine="58" d="M1550.73,608.24 C1550.73,623.96 1550.73,646.73 1550.73,663.75 " fill="none" id="ProductQuantity-to-Product" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1550.73,668.84,1554.73,659.84,1550.73,663.84,1546.73,659.84,1550.73,668.84" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1542.7894" y="629.1556">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1542.6581" y="658.131">1</text></g><!--MD5=[249b8abd4e729a16b977da04c600c214]
+link Message to User--><g id="link_Message_User"><path codeLine="61" d="M65.11,260.17 C76.75,275.68 95.66,297.13 117.73,308 C181.98,339.65 403.18,351.67 480.66,354.97 " fill="none" id="Message-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="485.99,355.19,477.1701,350.8072,480.9946,354.9753,476.8265,358.7998,485.99,355.19" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="118.73" y="304.4951">sent to</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="60.4965" y="281.0668">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="471.2602" y="370.6945">1</text></g><!--MD5=[249b8abd4e729a16b977da04c600c214]
+link Message to User--><g id="link_Message_User"><path codeLine="62" d="M32.57,260.07 C19.1,274.28 6,293.96 18.73,308 C50.01,342.5 383.65,353.07 481.13,355.43 " fill="none" id="Message-to-User-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="486.14,355.55,477.2458,351.32,481.1417,355.4215,477.0402,359.3173,486.14,355.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="19.73" y="304.4951">recieved by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="19.2114" y="280.9399">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="471.1426" y="350.1512">1</text></g><!--MD5=[7ab225c8c642292da9581267226779e2]
+link Alert to User--><g id="link_Alert_User"><path codeLine="64" d="M214.23,258.76 C234.46,273.75 266.13,295.26 296.73,308 C359.92,334.31 440.05,347.49 480.99,352.89 " fill="none" id="Alert-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="486.03,353.55,477.6047,348.4496,481.0697,352.921,476.5983,356.3861,486.03,353.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="297.73" y="304.4951">is launched by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="222.1988" y="259.4844">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="471.015" y="341.905">1</text></g><!--MD5=[7ab225c8c642292da9581267226779e2]
+link Alert to User--><g id="link_Alert_User"><path codeLine="65" d="M179.27,260.21 C170.33,274.69 162.17,294.66 173.73,308 C213.55,353.95 408.42,356.94 480.69,356.43 " fill="none" id="Alert-to-User-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="486.09,356.38,477.056,352.4573,481.0902,356.4229,477.1246,360.457,486.09,356.38" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="174.73" y="304.4951">is recieved by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="167.712" y="281.1175">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="473.4098" y="375.0102">*</text></g><!--MD5=[d60e4f22489c9e1634fb6b1be17695f1]
+link ZonePermissionRequest to User--><g id="link_ZonePermissionRequest_User"><path codeLine="69" d="M870.82,144.16 C851.56,181.38 802.27,266.29 734.73,308 C670.84,347.46 579.63,354.9 534.76,356.03 " fill="none" id="ZonePermissionRequest-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="529.53,356.14,538.6082,359.9592,534.529,356.04,538.4482,351.9608,529.53,356.14" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="860.4848" y="165.0541">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="537.6275" y="346.6318">1</text></g><!--MD5=[56b4bef169cedd929bef6c533f7bec86]
+link ZonePermissionRequest to Zone--><g id="link_ZonePermissionRequest_Zone"><path codeLine="70" d="M907.94,144.06 C941.43,165.51 996.93,201.06 1030.14,222.33 " fill="none" id="ZonePermissionRequest-to-Zone" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1034.48,225.11,1029.0399,216.8999,1030.2635,222.4228,1024.7405,223.6464,1034.48,225.11" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="907.8897" y="165.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1019.6222" y="215.6964">1</text></g><!--MD5=[da534a77f38e6421303d0c7d20d961f6]
+link ZonePermission to Zone--><g id="link_ZonePermission_Zone"><path codeLine="72" d="M415.29,221.74 C433.01,207.95 459,190.54 485.23,183 C595,151.43 893.61,139.52 999.23,183 C1016.49,190.11 1031.35,205.04 1041.78,217.97 " fill="none" id="ZonePermission-to-Zone" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1044.87,221.91,1042.4564,212.3615,1041.7815,217.9779,1036.1651,217.303,1044.87,221.91" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="414.1271" y="211.0004">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1032.8597" y="211.2225">1</text></g><!--MD5=[29204b77ffd0a49c750f9245dc9d8729]
+link ZonePermission to User--><g id="link_ZonePermission_User"><path codeLine="73" d="M410.95,260.06 C431.19,280.12 463.86,312.51 485.56,334.02 " fill="none" id="ZonePermission-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="489.21,337.64,485.6374,328.4619,485.6602,334.1188,480.0034,334.1416,489.21,337.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="408.09" y="281.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="478.0354" y="327.2071">*</text></g><!--MD5=[59f436a63fd120c4f40f9b73b6fc58b5]
+link Task to User--><g id="link_Task_User"><path codeLine="77" d="M507.73,260.06 C507.73,279.63 507.73,310.91 507.73,332.4 " fill="none" id="Task-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="507.73,337.64,511.73,328.64,507.73,332.64,503.73,328.64,507.73,337.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="508.73" y="304.4951">created by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="499.7456" y="281.2701">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="499.7019" y="327.2071">1</text></g><!--MD5=[9a004921d031b09fe7404497dda2e4b2]
+link Notes to Apiary--><g id="link_Notes_Apiary"><path codeLine="78" d="M1208.01,260.05 C1231.63,301.51 1289.73,403.52 1315.75,449.21 " fill="none" id="Notes-to-Apiary" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1318.32,453.72,1317.3451,443.9195,1315.847,449.3744,1310.3921,447.8763,1318.32,453.72" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1202.9169" y="281.2573">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1307.2339" y="443.3106">1</text></g><!--MD5=[be90fa443ec90da76bbd2b1639d90b33]
+link Notes to User--><g id="link_Notes_User"><path codeLine="79" d="M1172.58,256.98 C1144.97,272.64 1098.8,296.49 1055.73,308 C955.45,334.81 630.31,350.7 534.52,354.88 " fill="none" id="Notes-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="529.34,355.11,538.503,358.721,534.3354,354.8959,538.1605,350.7283,529.34,355.11" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="1104.73" y="304.4951">created by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1157.8803" y="256.7195">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="537.3438" y="349.571">1</text></g><!--MD5=[228d328173f1e4c014fa1b8cd2105344]
+link AnnualInventoryDeclaration to User--><g id="link_AnnualInventoryDeclaration_User"><path codeLine="80" d="M638.49,260.18 C622.39,273.75 599.55,292.53 578.73,308 C564.25,318.76 547.55,330.1 533.99,339.06 " fill="none" id="AnnualInventoryDeclaration-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="529.52,342,539.2338,340.3744,533.6912,339.243,534.8226,333.7004,529.52,342" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="601.73" y="304.4951">created every year by</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="624.8411" y="281.0795">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="537.2651" y="332.565">1</text></g><!--MD5=[3464e103b3ec9ba1615e8487a4acbe60]
+@startuml DomainModelAll
+
+object User
+object Hive
+object Apiary
+object Zone
+object Appointment
+object Session 
+object SessionResult
+object ApiaryCertification
+object ApiaryCertificationError
+'object ApiaryCertificationHistory
+object Certification
+object CommunicationPost
+object Fine
+object SanitaryLock
+object Product
+object ProductQuantity
+object Message
+object Alert
+object ZonePermissionRequest
+object ZonePermission
+
+'FOR BEEKEEPER
+object Task
+object Notes
+object AnnualInventoryDeclaration
+
+'Connections
+User "1" - -> "*" Apiary : has
+Apiary "1" - -> "*" Hive : contains
+Apiary "1" - -> "1" Zone : is located
+Zone "1" - -> "1" User : managed by
+
+Appointment "1" - -> "*" User : participants
+Appointment "1" - - "1" Session 
+
+Session "1" - -> "1" Apiary 
+Session "1" - -> "1" SessionResult : generates
+
+
+SessionResult "1" - -> "0..*" Fine : can result in
+Fine "1" - -> "0..1" Apiary
+
+Apiary "1" - -> "*" ApiaryCertification
+
+ApiaryCertification "1" - -> "1" Certification
+
+ApiaryCertification "1" - -> "1" ApiaryCertification : renew
+
+ApiaryCertification "1" - -> "0..*" ApiaryCertificationError
+
+CommunicationPost "1" - -> "1" User : is created by
+
+SanitaryLock "1" - -> "1" Apiary
+
+Apiary "1" - -> "*" ProductQuantity
+
+ProductQuantity "1" - -> "1" Product 
+'User ..> CommunicationPost : visualizes 
+
+Message "1" - -> "1" User : sent to
+Message "1" - -> "1" User : recieved by
+
+Alert "1" - -> "1" User : is launched by
+Alert "1" - -> "*" User : is recieved by
+
+'ZonePermissionRequest "1" ..> "1" User : creates
+'ZonePermissionRequest "1" ..> "1" User : management entity accepts
+ZonePermissionRequest "1" - -> "1" User 
+ZonePermissionRequest "1" - -> "1" Zone
+
+ZonePermission "1" -> "1" Zone
+ZonePermission "1" -> "*" User
+
+'FOR BEEKEEPER
+
+Task "1" - -> "1" User : created by
+Notes "1" - -> "1" Apiary
+Notes "1" - -> "1" User : created by
+AnnualInventoryDeclaration "1" - -> "1" User  : created every year by 
+
+
+@enduml
+
+@startuml DomainModelAll
+
+object User
+object Hive
+object Apiary
+object Zone
+object Appointment
+object Session 
+object SessionResult
+object ApiaryCertification
+object ApiaryCertificationError
+object Certification
+object CommunicationPost
+object Fine
+object SanitaryLock
+object Product
+object ProductQuantity
+object Message
+object Alert
+object ZonePermissionRequest
+object ZonePermission
+
+object Task
+object Notes
+object AnnualInventoryDeclaration
+
+User "1" - -> "*" Apiary : has
+Apiary "1" - -> "*" Hive : contains
+Apiary "1" - -> "1" Zone : is located
+Zone "1" - -> "1" User : managed by
+
+Appointment "1" - -> "*" User : participants
+Appointment "1" - - "1" Session 
+
+Session "1" - -> "1" Apiary 
+Session "1" - -> "1" SessionResult : generates
+
+
+SessionResult "1" - -> "0..*" Fine : can result in
+Fine "1" - -> "0..1" Apiary
+
+Apiary "1" - -> "*" ApiaryCertification
+
+ApiaryCertification "1" - -> "1" Certification
+
+ApiaryCertification "1" - -> "1" ApiaryCertification : renew
+
+ApiaryCertification "1" - -> "0..*" ApiaryCertificationError
+
+CommunicationPost "1" - -> "1" User : is created by
+
+SanitaryLock "1" - -> "1" Apiary
+
+Apiary "1" - -> "*" ProductQuantity
+
+ProductQuantity "1" - -> "1" Product 
+
+Message "1" - -> "1" User : sent to
+Message "1" - -> "1" User : recieved by
+
+Alert "1" - -> "1" User : is launched by
+Alert "1" - -> "*" User : is recieved by
+
+ZonePermissionRequest "1" - -> "1" User 
+ZonePermissionRequest "1" - -> "1" Zone
+
+ZonePermission "1" -> "1" Zone
+ZonePermission "1" -> "*" User
+
+
+Task "1" - -> "1" User : created by
+Notes "1" - -> "1" Apiary
+Notes "1" - -> "1" User : created by
+AnnualInventoryDeclaration "1" - -> "1" User  : created every year by 
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195843",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "disease",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Disease",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "disease",
+      "ownerSide": false,
+      "relationshipName": "inspection",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

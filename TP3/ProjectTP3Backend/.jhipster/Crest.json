@@ -1,0 +1,59 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195845",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "crest",
+  "fields": [
+    {
+      "fieldName": "waxWeight",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "timeWastedCentrifuge",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "initialDateDecantation",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "finalDateDecantation",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "producedHoneyQuantity",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "CrestState",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "DECANTATION,FINALIZED,ANNULLED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Crest",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "hive",
+      "otherEntityRelationshipName": "crest",
+      "relationshipName": "hive",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "frame",
+      "otherEntityRelationshipName": "crest",
+      "ownerSide": true,
+      "relationshipName": "frame",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

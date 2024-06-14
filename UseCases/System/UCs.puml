@@ -1,0 +1,14 @@
+@startuml UseCaseDiagram
+
+left to right direction
+
+:System: as sys
+
+(Envio de notificações automáticas para \ntodos os intervenientes de uma sessão,\nquando esta se aproxima) as uc1
+(Emissão da Declaração Anual de Existências) as uc2
+
+cc --> uc1
+cc --> uc2
+
+
+@enduml

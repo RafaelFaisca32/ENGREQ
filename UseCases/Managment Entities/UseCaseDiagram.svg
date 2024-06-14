@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1183px" preserveAspectRatio="none" style="width:754px;height:1183px;background:#FFFFFF;" version="1.1" viewBox="0 0 754 1183" width="754px" zoomAndPan="magnify"><defs/><g><!--MD5=[3c6d5cdcdfcd4a14e0e44c9a7ff9f3e6]
+entity me--><g id="elem_me"><ellipse cx="72" cy="544.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M72,552.5 L72,579.5 M59,560.5 L85,560.5 M72,579.5 L59,594.5 M72,579.5 L85,594.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="6" y="610.5332">Management Entities</text></g><g id="elem_uc1"><ellipse cx="473.2025" cy="32.1405" fill="#F1F1F1" rx="118.7025" ry="26.1405" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="372.2025" y="35.869">Visualizar Informação do Apiário</text></g><g id="elem_uc2"><ellipse cx="473.0075" cy="112.2015" fill="#F1F1F1" rx="81.5075" ry="18.7015" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="413.6675" y="116.0304">Registar/ver zonas</text></g><g id="elem_uc3"><ellipse cx="472.8927" cy="214.7785" fill="#F1F1F1" rx="234.3927" ry="49.2785" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="301" x="322.3927" y="200.8977">Emitir alertas sobre eventos ou recomendações</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="388.8927" y="218.507">que podem afetar as zonas</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="364" x="292.8927" y="236.1164">[alertas mau tempo, recomendações, produtos sugeridos]</text></g><g id="elem_uc4"><ellipse cx="473.0623" cy="341.9125" fill="#F1F1F1" rx="197.5623" ry="41.9125" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="335" x="305.5623" y="336.8363">Manutenção das Declarações de pedidos de entrada</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="224" x="363.0623" y="354.4457">ou saída de zonas [aprovar/rejeitar]</text></g><g id="elem_uc5"><ellipse cx="472.946" cy="455.1892" fill="#F1F1F1" rx="168.946" ry="36.1892" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="308" x="318.946" y="458.9177">Visualização do Documento Anual de Existências</text></g><g id="elem_uc6"><ellipse cx="472.7664" cy="574.8533" fill="#F1F1F1" rx="232.2664" ry="48.8533" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="438" x="253.7664" y="578.5818">Visualização de registos de doenças por parte dos técnicos de DGAV</text></g><g id="elem_uc7"><ellipse cx="473.2412" cy="681.9482" fill="#F1F1F1" rx="102.7412" ry="22.9482" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="389.7412" y="685.6768">Marcação de Intervenções</text></g><g id="elem_uc8"><ellipse cx="473.113" cy="762.8226" fill="#F1F1F1" rx="99.613" ry="22.3226" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="393.113" y="766.5511">Registo das Intervenções</text></g><g id="elem_uc9"><ellipse cx="473.0452" cy="866.109" fill="#F1F1F1" rx="216.0452" ry="45.609" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="348" x="299.0452" y="861.0329">Pedido de Declaração Anual de Existências antecipado</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="372" x="289.0452" y="878.6422">[influencia na emissão da declaração por parte do sistema]</text></g><g id="elem_uc10"><ellipse cx="473.207" cy="987.2414" fill="#F1F1F1" rx="191.707" ry="40.7414" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="355" x="295.707" y="990.9699">Visualizar um ponto de situação [Dashboard de entrada]</text></g><g id="elem_uc11"><ellipse cx="473.0851" cy="1119.917" fill="#F1F1F1" rx="275.0851" ry="57.417" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="525" x="210.5851" y="1123.6455">Visualizar informação das zonas [temperatura, velocidade dos ventos, entre outros]</text></g><!--MD5=[96310aaceb3db3cf5974c4d318c0a552]
+link me to uc1--><g id="link_me_uc1"><path d="M77.27,535.96 C89.72,429.66 129.47,138.86 198,76 C240.22,37.27 302.34,25.03 356.76,23.02 " fill="none" id="me-to-uc1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="362,22.86,352.8785,19.1455,357.0025,23.0175,353.1305,27.1415,362,22.86" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0058c4b4ff678535510d39b06178f971]
+link me to uc2--><g id="link_me_uc2"><path d="M78.91,536 C94.21,440.56 138.09,199.32 198,148 C253.11,100.79 338.74,96.8 399.6,101.44 " fill="none" id="me-to-uc2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="404.67,101.85,396.0321,97.1185,399.6872,101.436,395.3697,105.091,404.67,101.85" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[73d5be528852e89a6311b854f93d8e7b]
+link me to uc3--><g id="link_me_uc3"><path d="M78.38,535.93 C89.2,472.74 119.67,348.47 198,282 C218.21,264.85 242.13,251.95 267.27,242.28 " fill="none" id="me-to-uc3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="271.98,240.52,262.148,239.9447,267.3001,242.2803,264.9645,247.4325,271.98,240.52" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b7c637829ea74792c8fff30089c56e26]
+link me to uc4--><g id="link_me_uc4"><path d="M90.43,535.95 C110.48,495.68 147.29,434.22 198,401 C225.43,383.03 257.41,370.43 289.64,361.62 " fill="none" id="me-to-uc4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="294.81,360.24,285.0838,358.6904,289.9784,361.5265,287.1423,366.4211,294.81,360.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e1565e86da2a6d84785612d2be5d2d47]
+link me to uc5--><g id="link_me_uc5"><path d="M137.14,535.86 C156.19,525.56 177.47,515.3 198,508 C238.14,493.73 283.03,483.01 324.67,475.09 " fill="none" id="me-to-uc5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="329.73,474.13,320.1502,471.8437,324.8143,475.0445,321.6135,479.7087,329.73,474.13" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e56be4e11bb2a52ecaef361834cb125e]
+link me to uc6--><g id="link_me_uc6"><path d="M138.44,575 C165.94,575 199.76,575 235.22,575 " fill="none" id="me-to-uc6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="240.46,575,231.46,571,235.46,575,231.46,579,240.46,575" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d6e18b5ff3d47018b567dc8be6ea2a5f]
+link me to uc7--><g id="link_me_uc7"><path d="M137.01,614.09 C156.06,624.25 177.36,634.23 198,641 C253.12,659.09 317.12,669.24 369.4,674.91 " fill="none" id="me-to-uc7" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="374.42,675.44,365.8933,670.5109,369.448,674.9114,365.0475,678.466,374.42,675.44" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[05b2724cac2ec61461475f4216c04307]
+link me to uc8--><g id="link_me_uc8"><path d="M95.03,614.14 C116.6,648.52 152.76,696.85 198,722 C249.62,750.69 314.76,761.29 368.57,764.56 " fill="none" id="me-to-uc8" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="373.74,764.85,364.9836,760.3416,368.7482,764.5639,364.5259,768.3285,373.74,764.85" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f1d4b2b8663eeeef763ae8ccd8a52bbb]
+link me to uc9--><g id="link_me_uc9"><path d="M83.56,614.28 C99.52,665.79 134.82,755.2 198,803 C221.46,820.75 249.06,833.63 277.55,842.95 " fill="none" id="me-to-uc9" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="282.5,844.54,275.1551,837.9785,277.7397,843.0104,272.7078,845.595,282.5,844.54" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[950127baed7d5c61f15001ecddb95f42]
+link me to uc10--><g id="link_me_uc10"><path d="M74.85,614.27 C80.53,687.8 103.67,846.27 198,929 C222.46,950.46 252.86,964.66 284.42,973.93 " fill="none" id="me-to-uc10" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="289.49,975.38,281.9302,969.0673,284.6813,974.0102,279.7385,976.7613,289.49,975.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f567adb6679c40c0a486b862bf3d885e]
+link me to uc11--><g id="link_me_uc11"><path d="M78.38,614.35 C93.02,715.91 136.65,983.21 198,1045 C213.14,1060.25 231.05,1072.47 250.37,1082.27 " fill="none" id="me-to-uc11" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="255.31,1084.71,249.0103,1077.1395,250.8265,1082.4968,245.4691,1084.3131,255.31,1084.71" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[02084fa24df88d228d40594c42825ee8]
+@startuml UseCaseDiagram
+
+left to right direction
+
+:Management Entities: as me
+
+(Visualizar Informação do Apiário) as uc1
+(Registar/ver zonas) as uc2
+(Emitir alertas sobre eventos ou recomendações\n que podem afetar as zonas\n [alertas mau tempo, recomendações, produtos sugeridos]) as uc3
+(Manutenção das Declarações de pedidos de entrada\n ou saída de zonas [aprovar/rejeitar]) as uc4
+(Visualização do Documento Anual de Existências) as uc5
+(Visualização de registos de doenças por parte dos técnicos de DGAV) as uc6
+(Marcação de Intervenções) as uc7
+(Registo das Intervenções) as uc8
+(Pedido de Declaração Anual de Existências antecipado\n [influencia na emissão da declaração por parte do sistema]) as uc9
+(Visualizar um ponto de situação [Dashboard de entrada]) as uc10
+(Visualizar informação das zonas [temperatura, velocidade dos ventos, entre outros]) as uc11
+
+me - -> uc1
+me - -> uc2
+me - -> uc3
+me - -> uc4
+me - -> uc5
+me - -> uc6
+me - -> uc7
+me - -> uc8
+me - -> uc9
+me - -> uc10
+me - -> uc11
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

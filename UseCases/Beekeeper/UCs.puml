@@ -1,0 +1,29 @@
+@startuml UseCaseDiagram
+
+left to right direction
+
+:Beekeeper: as bk
+
+(Registar apiários e os seus dados) as uc1
+(Criar tarefas) as uc2
+(Registo de inspeções \n por colmeia e as suas notas) as uc3
+(Registar tratamentos realizados por colmeia) as uc4
+(Visualizar alertas emitidos\npelas Entidades Gestoras e técnicos DGAV) as uc5
+(Emitir Pedido de entrada\nou saída de zona às entidades gestoras) as uc6
+(Visualizar informação das zonas temperatura,\n velocidade dos ventos, entre outros) as uc7
+(Visualizar calendário\ncom tarefas realizadas e agendas) as uc8
+(Registo de produtos produzidos,\nquantidade e tipo de mel) as uc9
+(Dar permissão às companhias de certificação\npara visualizar os dados de X colmeias) as uc10
+
+bk --> uc1
+bk --> uc2
+bk --> uc3
+bk --> uc4
+bk --> uc5
+bk --> uc6
+bk --> uc7
+bk --> uc8
+bk --> uc9
+bk --> uc10
+
+@enduml

@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cresta</ion-title>
+    <ion-buttons slot="end" >
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="fixed">ID</ion-label>
+      <div item-content>
+        <span id="id-content">{{crest.id}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Peso de Cera (KG)</ion-label>
+      <div item-content>
+        <span id="waxWeight-content">{{crest.waxWeight}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Tempo gasto na Centrifugadora (Min.)</ion-label>
+      <div item-content>
+        <span id="timeWastedCentrifuge-content">{{crest.timeWastedCentrifuge}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Início da Decantação</ion-label>
+      <div item-content>
+        <span id="initialDateDecantation-content">{{crest.initialDateDecantation | date:'medium'}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Final da Decantação</ion-label>
+      <div item-content>
+        <span id="finalDateDecantation-content">{{crest.finalDateDecantation | date:'medium'}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Quantidade de Mel (KG)</ion-label>
+      <div item-content>
+        <span id="producedHoneyQuantity-content">{{crest.producedHoneyQuantity}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Estado</ion-label>
+      <div item-content>
+        <span id="state-content">{{crest.state}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Colmeia</ion-label>
+      <div item-content *ngIf="hiveDisplayed && hiveDisplayed.id">
+        <a>{{hiveDisplayed.id}}</a>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Quadros</ion-label>
+      <div item-content>
+        <span *ngFor="let frame of crest.frames; let last = last"> <a>{{frame.id}}</a>{{last ? '' : ', '}} </span>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-button *ngIf=" !isFinalized && !isAnnulled" expand="block" color="primary" (click)="open(crest)">{{ 'EDIT_BUTTON' | translate }}</ion-button>
+  <!--<ion-button expand="block" color="danger" (click)="deleteModal(crest)">{{ 'DELETE_BUTTON' | translate }}</ion-button>-->
+</ion-content>

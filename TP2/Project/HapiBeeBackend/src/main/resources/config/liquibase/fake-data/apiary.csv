@@ -1,0 +1,11 @@
+id;name;state;number;intensive;transhumance
+1;Liaison parse;PENDING;4178;true;true
+2;Coordinator;PENDING;84866;true;true
+3;markets 1080p dynamic;APPROVED;54258;false;false
+4;Sabonete;PENDING;60190;false;true
+5;cinzento program;NOT_APPROVED;14980;false;true
+6;Wyoming;NOT_APPROVED;19470;false;false
+7;Plástico Multi-layered;PENDING;99579;true;true
+8;1080p;APPROVED;26198;false;false
+9;Brand;NOT_APPROVED;56721;true;true
+10;harness multimedia;NOT_APPROVED;83832;true;false

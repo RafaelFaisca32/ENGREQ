@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20231227195838",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "apiary_zone",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "controlledZone",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "ApiaryZoneState",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "REGISTERED,ANNULLED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "ApiaryZone",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "apiary",
+      "otherEntityRelationshipName": "apiaryZone",
+      "relationshipName": "apiary",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

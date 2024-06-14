@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Inspeção</ion-title>
+    <ion-buttons slot="end">
+      <ion-button *ngIf="!network.onlineIndicator">
+        <ion-icon style="zoom: 2" name="flash-outline"></ion-icon>
+      </ion-button>
+      <ion-button *ngIf="network.onlineIndicator">
+        <ion-icon color="success" style="zoom: 2" name="flash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-label position="fixed">ID</ion-label>
+      <div item-content>
+        <span id="id-content">{{inspection.id}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Data</ion-label>
+      <div item-content>
+        <span id="date-content">{{inspection.date | date:'mediumDate'}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Notas</ion-label>
+      <div item-content>
+        <span id="note-content">{{inspection.note}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label position="fixed">Estado</ion-label>
+      <div item-content>
+        <span id="state-content">{{inspection.state}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label id="colmeia_label">{{this.colmeiaLabel}}</ion-label>
+      <div item-content *ngIf="inspection.hiveId">
+        <a>{{inspection.hiveId}}</a>
+      </div>
+    </ion-item>
+    <ion-item [hidden]="this.isFromApiary">
+      <ion-label position="fixed">Tipo</ion-label>
+      <div item-content>
+        <span id="type-content">{{inspection.type}}</span>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Doença</ion-label>
+      <div item-content>
+        <span *ngFor="let disease of inspection.diseases; let last = last"> <a>{{disease.id}}</a>{{last ? '' : ', '}} </span>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" color="danger" (click)="deleteModal(inspection)" [hidden]="this.isAnulled">ANULAR</ion-button>
+</ion-content>

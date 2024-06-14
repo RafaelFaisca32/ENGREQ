@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Annual Inventory Declaration</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button [disabled]="!isReadyToSave" (click)="save()" color="primary">
+        <span *ngIf="platform.is('ios')">{{'DONE_BUTTON' | translate}}</span>
+        <ion-icon name="checkmark" *ngIf="!platform.is('ios')"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form *ngIf="form" name="form" [formGroup]="form" (ngSubmit)="save()">
+    <ion-list>
+      <ion-item [hidden]="!form.id">
+        <ion-label>ID</ion-label>
+        <ion-input type="hidden" id="id" formControlName="id" readonly></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Total</ion-label>
+        <ion-input type="number" name="total" formControlName="total"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Fax Number</ion-label>
+        <ion-input type="number" name="beekeeperFaxNumber" formControlName="beekeeperFaxNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Complete Name</ion-label>
+        <ion-input type="text" name="beekeeperCompleteName" formControlName="beekeeperCompleteName"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Nif</ion-label>
+        <ion-input type="number" name="beekeeperNif" formControlName="beekeeperNif"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Date</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY" formControlName="date" id="field_date"></ion-datetime>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Address</ion-label>
+        <ion-input type="text" name="beekeeperAddress" formControlName="beekeeperAddress"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Postal Code</ion-label>
+        <ion-input type="text" name="beekeeperPostalCode" formControlName="beekeeperPostalCode"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Phone Number</ion-label>
+        <ion-input type="number" name="beekeeperPhoneNumber" formControlName="beekeeperPhoneNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Entity Zone Residence</ion-label>
+        <ion-input type="text" name="beekeeperEntityZoneResidence" formControlName="beekeeperEntityZoneResidence"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Beekeeper Number</ion-label>
+        <ion-input type="number" name="beekeeperNumber" formControlName="beekeeperNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Annual Inventory Declaration State</ion-label>
+        <ion-select formControlName="annualInventoryDeclarationState" id="field_annualInventoryDeclarationState">
+          <ion-select-option value="APPROVED">APPROVED</ion-select-option>
+          <ion-select-option value="DECLINED">DECLINED</ion-select-option>
+          <ion-select-option value="PENDING">PENDING</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Revision Date</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY" formControlName="revisionDate" id="field_revisionDate"></ion-datetime>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Revision Location</ion-label>
+        <ion-input type="text" name="revisionLocation" formControlName="revisionLocation"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Revisor Signature</ion-label>
+        <ion-input type="text" name="revisorSignature" formControlName="revisorSignature"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Revisor Name</ion-label>
+        <ion-input type="text" name="revisorName" formControlName="revisorName"></ion-input>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>

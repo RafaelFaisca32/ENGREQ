@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity TranshumanceRequest.
+    -->
+    <changeSet id="20231208211618-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="apiary_id"
+                                 baseTableName="transhumance_request"
+                                 constraintName="fk_transhumance_request__apiary_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="apiary"/>
+
+        <addForeignKeyConstraint baseColumnNames="transhumance_request_id"
+                                 baseTableName="rel_transhumance_request__hive"
+                                 constraintName="fk_rel_transhumance_request__hive__transhumance_request_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="transhumance_request"/>
+
+        <addForeignKeyConstraint baseColumnNames="hive_id"
+                                 baseTableName="rel_transhumance_request__hive"
+                                 constraintName="fk_rel_transhumance_request__hive__hive_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hive"/>
+    </changeSet>
+</databaseChangeLog>
